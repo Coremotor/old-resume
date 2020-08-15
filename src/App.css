@@ -1,3 +1,31 @@
 .displayNone {
     display: none;
 }
+
+.title-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.p-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.icon-done {
+    width: 32px;
+    height: 32px;
+    background-image: url("./img/done.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+
+.icon-pause {
+    width: 32px;
+    height: 32px;
+    background-image: url("./img/pause.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}

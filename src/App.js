@@ -2,21 +2,28 @@ import React from 'react';
 import {useDispatch, useSelector} from "react-redux";
 import './App.css'
 import {onCourseTitleClickHandler, onModuleTitleClickHandler} from "./store/actionCreators/onCourseTitleClickHandler";
+import {IconSet} from "./IconSet";
 
 
 function App() {
 
-    const course = useSelector(state => state.javascript2019);
+    const course = useSelector(state => state.phpDeveloperChapterOne);
     const dispatch = useDispatch();
-
 
     return (
         <section>
-            <h1 onClick={() => {
 
-                dispatch(onCourseTitleClickHandler(!course.show, course.id, course.title))
+            <div className='title-wrapper'>
+                <h1 onClick={() => {
 
-            }}>{course.title}</h1>
+                    dispatch(onCourseTitleClickHandler(!course.show, course.id, course.title))
+
+                }}>{course.title}</h1>
+
+                <IconSet obj={course}/>
+
+            </div>
+
 
             <div className={course.show ? '' : 'displayNone'}>
 
@@ -24,27 +31,35 @@ function App() {
                     course.body.map((module, index) => {
                         return (
                             <article key={index}>
-                                <h2 onClick={
-                                    () => {
 
-                                        dispatch(onModuleTitleClickHandler(course.id, !module.show, module.id));
+                                <div className='title-wrapper'>
+                                    <h4 onClick={
+                                        () => {
 
-                                    }
-                                }>{module.title}</h2>
+                                            dispatch(onModuleTitleClickHandler(course.id, !module.show, module.id));
 
+                                        }
+                                    }>{module.title}</h4>
 
-                                <div className={module.show ? '' : 'displayNone'}>
+                                    <IconSet obj={module}/>
+
+                                </div>
+
+                                <ul className={module.show ? '' : 'displayNone'}>
                                     {
                                         module.lessons.map((lesson, index) => {
                                             return (
-                                                <p key={index}>{lesson.title} <span>{lesson.githubLink}</span></p>
 
+                                                <li className='p-wrapper' key={index}>{lesson.title}
+
+                                                    <IconSet obj={lesson}/>
+
+                                                </li>
                                             )
                                         })
                                     }
-                                </div>
+                                </ul>
                             </article>
-
                         )
                     })
                 }
