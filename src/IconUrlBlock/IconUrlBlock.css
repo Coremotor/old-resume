@@ -1,0 +1,37 @@
+.icons-block {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+
+.icon-done {
+    width: 32px;
+    height: 32px;
+    background-image: url("./img/done.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+
+.icon-pause {
+    background-image: url("./img/pause.svg");
+}
+
+.icon-arrow-up {
+    background-image: url("./img/arrow.svg");
+}
+
+.icon-arrow-down {
+    transform: rotate(180deg);
+    background-image: url("./img/arrow.svg");
+}
+
+

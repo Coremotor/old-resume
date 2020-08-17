@@ -9,13 +9,13 @@ const initialState =
             inProcess: false,
             finalWork: 'url',
             comments: [],
-            show: true,
+            show: false,
             body: [
                 {
                     id: uuidv4(),
                     title: 'Вводный модуль',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Как работают сайты. Backend и frontend. Вёрстка',
@@ -43,7 +43,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'HTML',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Приветственное видео',
@@ -75,7 +75,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Основы CSS',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Переходим к следующему модулю',
@@ -111,7 +111,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Основы JavaScript',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Что такое JavaScript и как его подключать к веб-страни',
@@ -147,7 +147,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Адаптивность и кроссбраузерность',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Адаптивность и кроссбраузерность',
@@ -179,7 +179,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Оформление',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Фон, прозрачность и градиенты',
@@ -211,7 +211,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Advanced CSS',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Сложные селекторы. Свойство important',
@@ -243,7 +243,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Инструменты верстальщика',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Последний модуль. Осталось чуть-чуть!',
@@ -285,13 +285,13 @@ const initialState =
             inProcess: true,
             finalWork: 'url',
             comments: [],
-            show: true,
+            show: false,
             body: [
                 {
                     id: uuidv4(),
                     title: 'Введение',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Приветствие',
@@ -328,7 +328,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Базовый HTML',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Ускорение работы. Emmet',
@@ -365,7 +365,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Базовый HTML',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Подключение CSS',
@@ -410,7 +410,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Работа с макетом',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Форматы изображений',
@@ -439,7 +439,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Layout',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Интро',
@@ -480,7 +480,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Продвинутый HTML. Формы',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Узконаправленные теги',
@@ -509,7 +509,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Продвинутый СSS',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Интро',
@@ -562,7 +562,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Сетки',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Интро',
@@ -603,7 +603,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Адаптивность. Декстоп и планшет',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Интро',
@@ -638,108 +638,149 @@ const initialState =
                 },
                 {
                     id: uuidv4(),
-                    title: 'Адаптивность. Мобильные устройства (откроется 13.08.2020)',
+                    title: 'Адаптивность. Мобильные устройства',
                     done: false,
-                    show: true,
-                    lessons: [],
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Интро',
+                            done: true,
+                        },
+                        {
+                            title: 'Адаптивные изображения',
+                            done: true,
+                        },
+                        {
+                            title: 'Настройка сервера для проверки адаптивности',
+                            done: true,
+                        },
+                        {
+                            title: 'Формы на нативных устройствах',
+                            done: true,
+                        },
+                        {
+                            title: 'Практика',
+                            done: true,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: false,
+                            githubLink: 'url',
+                        },
+                    ],
+                    inDevelopment: false,
                 },
                 {
                     id: uuidv4(),
                     title: 'Доступность (откроется 03.09.2020)',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'Javascript для верстальщика (откроется 06.11.2020)',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'Кроссбраузерность (откроется 27.11.2020)',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'Практикум (бонус) (откроется 18.12.2020)',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'Работа с хостингом (откроется 08.01.2021)',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'Курсовая (мини-проект)',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'Верстка HTML-писем',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'Сборщики',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'Препроцессоры и Постпроцессоры',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'CSS Grid',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'Анимация',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'CMS',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'Будущее верстки',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'Информация о дипломном проекте',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
             ]
         },
@@ -750,13 +791,13 @@ const initialState =
             inProcess: false,
             finalWork: 'url',
             comments: [],
-            show: true,
+            show: false,
             body: [
                 {
                     id: uuidv4(),
                     title: 'Знакомство с языком',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Интро',
@@ -793,7 +834,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Основы',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Приветственное видео',
@@ -854,7 +895,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Функции',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Переходим к следующему модулю',
@@ -899,7 +940,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Массивы и объекты',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Понятие объектов',
@@ -944,7 +985,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Замыкания',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Глобальный объект window',
@@ -973,7 +1014,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Объекты и конструкторы',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Функции-конструкторы',
@@ -998,7 +1039,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Объектно-ориентированное программирование',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'ООП. Наследование, инкапсуляция, полиморфизм',
@@ -1027,7 +1068,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Разное',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Объект arguments',
@@ -1064,7 +1105,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'JavaScript в браузере. DOM',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Интро',
@@ -1105,7 +1146,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Web API',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Интро',
@@ -1150,7 +1191,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Клиент и сервер',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Клиент-серверное взаимодействие (интро)',
@@ -1183,7 +1224,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'jQuery',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Библиотека jQuery. Интро',
@@ -1220,7 +1261,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Современный JavaScript. ES 2015',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'История стандарта ECMAScript. Интро',
@@ -1265,7 +1306,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Сборка проектов',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Интро. Что такое сборка проектов и для чего она нужна?',
@@ -1298,7 +1339,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'React',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'DOM и императивный подход. Интро',
@@ -1331,7 +1372,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Redux',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Последний модуль. Осталось чуть-чуть!',
@@ -1372,7 +1413,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Бонус',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Библиотеки и фреймворки 2017',
@@ -1397,13 +1438,13 @@ const initialState =
             inProcess: true,
             finalWork: 'url',
             comments: [],
-            show: true,
+            show: false,
             body: [
                 {
                     id: uuidv4(),
                     title: 'Введение',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'О курсе',
@@ -1432,7 +1473,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Переменные и работа с числами',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Переменные let',
@@ -1473,7 +1514,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Строки, boolean и условные операторы',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Типы данных',
@@ -1518,7 +1559,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Массивы и циклы',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Примитивные типы и массивы',
@@ -1559,7 +1600,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Функции',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Intro: Переиспользование кода',
@@ -1596,113 +1637,129 @@ const initialState =
                     id: uuidv4(),
                     title: 'Объекты (откроется 25.08.2020)',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'Константы, области видимости и замыкания (откроется 11.09.2020)',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'Преобразование типов и нестрогие сравнения (откроется 29.09.2020)',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'Введение в DOM (откроется 15.10.2020)',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'Обработка событий и пользовательский ввод (откроется 03.11.2020)',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'Разработчик и soft skills',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'Модули',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'Npm, package.json',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'Event loop и асинхронная разработка',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'Методы объекта и прототипы',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'Тестирование',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'Обработка ошибок',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'Общение с сервером, async/await',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'События',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'ООП и его реализация в JavaScript',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'ФП, работа с массивами и строками',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
             ]
         },
@@ -1713,13 +1770,13 @@ const initialState =
             inProcess: true,
             finalWork: 'url',
             comments: [],
-            show: true,
+            show: false,
             body: [
                 {
                     id: uuidv4(),
                     title: 'Введение в программирование',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Вводная лекция ко всему курсу',
@@ -1780,7 +1837,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Структура управления данными. Базовые концепции PHP 7',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Приветственное видео',
@@ -1841,7 +1898,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Протокол HTTP/HTTPS',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Переходим к следующему модулю',
@@ -1870,7 +1927,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Пользовательские функции',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Интро',
@@ -1899,7 +1956,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Файлы и каталоги',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Файлы. Права доступа. Режимы работы',
@@ -1924,7 +1981,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Cookie/Session',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Cookie',
@@ -1945,7 +2002,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'База данных MySQL',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Последний модуль. Осталось чуть-чуть!',
@@ -2015,13 +2072,13 @@ const initialState =
             inProcess: true,
             finalWork: 'url',
             comments: [],
-            show: true,
+            show: false,
             body: [
                 {
                     id: uuidv4(),
                     title: 'Объекты (базовые понятия)',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Вводная лекция Курс 2',
@@ -2058,7 +2115,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Принципы',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Абстракция и инкапсуляция',
@@ -2083,7 +2140,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Объекты (расширенные понятия)',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Статические свойства и методы',
@@ -2108,7 +2165,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Функции и стандарты по работе с классами',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Функции по работе с классами и объектами',
@@ -2129,7 +2186,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Исключения и другие встроенные классы',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Исключения',
@@ -2151,7 +2208,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'ООП. Шаблоны',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Архитектура и принципы проектирования',
@@ -2201,13 +2258,13 @@ const initialState =
             inProcess: false,
             finalWork: 'url',
             comments: [],
-            show: true,
+            show: false,
             body: [
                 {
                     id: uuidv4(),
                     title: 'Подготовка среды обучения. Ручной режим',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Вводная лекция Курс 3',
@@ -2252,7 +2309,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Архитектура и проектирование',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Архитектура и проектирование',
@@ -2269,7 +2326,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Структура проекта Laravel',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Структура проекта Laravel',
@@ -2302,7 +2359,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'GIT и командная разработка',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Системы контроля версий, знакомство с git',
@@ -2335,7 +2392,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Laravel — начинающий уровень',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Модели — ресурсы',
@@ -2376,7 +2433,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Laravel — продвинутый уровень',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Коллекции',
@@ -2417,7 +2474,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Eloquent ORM и База данных',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Eloquent ORM',
@@ -2450,7 +2507,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Laravel — очереди и WebSocket',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Очереди в Laravel и Работы — jobs',
@@ -2483,7 +2540,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Laravel — кеширование и оптимизация',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Кеширование',
@@ -2508,7 +2565,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Бонус-модуль. Введение в Symfony',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Введение и установка Symfony',
@@ -2570,7 +2627,7 @@ const initialState =
             inProcess: false,
             finalWork: 'url',
             comments: [],
-            show: true,
+            show: false,
             body: [
                 {
                     id: uuidv4(),
@@ -2629,13 +2686,13 @@ const initialState =
             inProcess: false,
             finalWork: 'url',
             comments: [],
-            show: true,
+            show: false,
             body: [
                 {
                     id: uuidv4(),
                     title: 'Философия разработки, подготовка рабочего места',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Философия разработчика',
@@ -2660,7 +2717,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Источник товаров и контента',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Что такое инфоблок и как он работает',
@@ -2689,7 +2746,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Интеграция с 1С-Битрикс и другими системами',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Структура кода в Битрикс',
@@ -2714,7 +2771,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Создание страниц и шаблонов',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Создание страниц и шаблонов, часть 1',
@@ -2735,7 +2792,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Стандартные компоненты',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Стандартные компоненты, часть 1',
@@ -2756,7 +2813,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Каталог интернет магазина',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Каталог интернет-магазина: часть 1',
@@ -2777,7 +2834,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Карта товара',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Карта товара: часть 1',
@@ -2798,7 +2855,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Оформление заказа',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Оформление заказа, часть 1',
@@ -2819,7 +2876,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Личный кабинет',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Личный кабинет: урок 1',
@@ -2840,7 +2897,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Дорабатываем сайт, ч.1',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Дорабатываем сайт, ч.1',
@@ -2857,7 +2914,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Дорабатываем сайт, ч.2',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Дорабатываем сайт, ч.1',
@@ -2874,7 +2931,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Бонусный материал: ответы на часто задаваемые вопросы',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Бонусный материал: ответы на часто задаваемые вопросы',
@@ -2891,13 +2948,13 @@ const initialState =
             inProcess: false,
             finalWork: 'url',
             comments: [],
-            show: true,
+            show: false,
             body: [
                 {
                     id: uuidv4(),
                     title: 'Введение в Symfony',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Введение и Установка Symfony',
@@ -2954,7 +3011,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Основы Symfony',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Основы Autowiring и конфигурирования',
@@ -3003,7 +3060,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Шаблонизатор Twig',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Работа с блоками Twig',
@@ -3028,7 +3085,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Библиотека работы с базой данных Doctrine Orm',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Знакомство с Doctrine и миграциями',
@@ -3053,7 +3110,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Фикстуры и расширения Doctrine',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Фикстуры и демоданные',
@@ -3074,7 +3131,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Связи в Doctrine. Часть 1 — Один ко многим',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Связь один ко многим (One-to-Many)',
@@ -3099,7 +3156,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Связи в Doctrine. Часть 2',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Фикстуры 2.0',
@@ -3124,7 +3181,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Система аутентификации',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Создание модели пользователя',
@@ -3153,7 +3210,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Роли и уровни доступов и безопасность',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Роли и доступы к страницам',
@@ -3178,7 +3235,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Доступы по API',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Создание токена и API маршрута',
@@ -3199,7 +3256,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Регистрация и классы Voter',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Регистрация и программная авторизация',
@@ -3220,50 +3277,57 @@ const initialState =
                     id: uuidv4(),
                     title: 'Знакомство с компонентом Форм (откроется 19.08.2020)',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'Валидация вывод и обработка формы (откроется 02.09.2020)',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'Расширение полей и кастомная валидация (откроется 16.09.2020)',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'Загрузка файлов в Symfony (откроется 30.09.2020)',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'Сервис отправки электронных писем (откроется 14.10.2020)',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'Система Событий (откроется 28.10.2020)',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'Выделение переиспользуемых бандлов для Symfony (откроется 11.11.2020)',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
             ]
         },
@@ -3274,13 +3338,13 @@ const initialState =
             inProcess: true,
             finalWork: 'url',
             comments: [],
-            show: true,
+            show: false,
             body: [
                 {
                     id: uuidv4(),
                     title: 'Введение в React',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Что такое React. Основные преимущества',
@@ -3309,7 +3373,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Создание проекта',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Конфигурация webpack на клиенте',
@@ -3342,7 +3406,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Typescript',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Основы Typescript, Типы',
@@ -3383,7 +3447,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Компоненты на примере новостной карточки Reddit',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Компоненты в React',
@@ -3419,7 +3483,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Hooks и Функциональное программирование',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Карирование и Функции высшего порядка',
@@ -3447,7 +3511,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Больше о компонентах и введение в тестирование компонентов',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Адаптивные и неадаптивные компоненты. Mobile first и desktop first в адаптиве. Разница в подходах',
@@ -3475,57 +3539,65 @@ const initialState =
                     id: uuidv4(),
                     title: 'Работа с публичным API на примере Reddit (откроется 12.08.2020)',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'Введение в Redux на примере Новостной ленты (откроется 08.09.2020)',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'Использование Redux-Thunk на примере бесконечной ленты (откроется 29.09.2020)',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'Сайдбар + роутинг (откроется 30.09.2020)',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'Формы на примере комментариев и карточки поста (откроется 20.10.2020)',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'Оптимизируем приложение (откроется 30.11.2020)',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'SSR + NextJS (откроется 21.12.2020)',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'Бонус-модуль: Mobx (откроется 21.12.2020)',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
             ]
         },
@@ -3536,13 +3608,13 @@ const initialState =
             inProcess: false,
             finalWork: 'url',
             comments: [],
-            show: true,
+            show: false,
             body: [
                 {
                     id: uuidv4(),
                     title: 'Основы Vue',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Что такое Vue. Реактивный подход',
@@ -3575,7 +3647,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Создание проекта',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Делаем todo-лист. Директивы V-on и V-model',
@@ -3608,7 +3680,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Каталог товаров',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Vue как фреймворк. Компоненты',
@@ -3641,7 +3713,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Пагинация и фильтрация',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Вычисляемые свойства',
@@ -3674,7 +3746,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Страница товара',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Переключение страниц',
@@ -3699,7 +3771,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Корзина',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Vue-роутер',
@@ -3732,7 +3804,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Работа с API. Список товаров',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Асинхронность JavaScript. Promises',
@@ -3777,7 +3849,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Работа с API. Оформление заказа',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Форма оформления заказа. Слоты и примеси',
@@ -3802,8 +3874,9 @@ const initialState =
                     id: uuidv4(),
                     title: 'Деплой (откроется 17.08.2020)',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
             ]
         },
@@ -3814,13 +3887,13 @@ const initialState =
             inProcess: false,
             finalWork: 'url',
             comments: [],
-            show: true,
+            show: false,
             body: [
                 {
                     id: uuidv4(),
                     title: 'Введение',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Промо-ролик. Краткое описание курса. Минимальные требования',
@@ -3840,7 +3913,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Подготовка рабочей среды',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Интро',
@@ -3873,7 +3946,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Hello, world!',
                     done: true,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Введение',
@@ -3902,7 +3975,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Решаем базовые задачи',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Документация Node.js, globals',
@@ -3935,7 +4008,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Асинхронный код',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Введение',
@@ -3972,7 +4045,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Express.js',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Введение',
@@ -4009,50 +4082,57 @@ const initialState =
                     id: uuidv4(),
                     title: 'Базы данных, Реляционные ДБ (откроется 25.08.2020)',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'Базы данных, Нереляционные БД (откроется 16.09.2020)',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'CLI программы (откроется 02.10.2020)',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'Углубляем теорию + продвинутые понятия (откроется 15.10.2020)',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'Real-time & WebSockets (откроется 02.11.2020)',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'Pro tips (откроется 19.11.2020)',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
                 {
                     id: uuidv4(),
                     title: 'Информация о дипломном проекте (откроется 07.12.2020)',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
+                    inDevelopment: true,
                 },
             ]
         },
@@ -4063,13 +4143,13 @@ const initialState =
             inProcess: false,
             finalWork: 'url',
             comments: [],
-            show: true,
+            show: false,
             body: [
                 {
                     id: uuidv4(),
                     title: 'Протокол HTTP',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Протокол HTTP. Запрос и ответ',
@@ -4105,7 +4185,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Введение в алгоритмы',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Введение в алгоритмы',
@@ -4162,13 +4242,13 @@ const initialState =
             inProcess: false,
             finalWork: 'url',
             comments: [],
-            show: true,
+            show: false,
             body: [
                 {
                     id: uuidv4(),
                     title: 'Экологичный путь менеджера',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Карта компетенций менеджера',
@@ -4193,7 +4273,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Релиз-менеджмент: готовим проекты к запуску',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Релиз-менеджмент: готовим проекты к запуску. Часть I',
@@ -4214,7 +4294,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Требовательность digital-продюсера',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Требовательность',
@@ -4239,7 +4319,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Аналитика. Базовые навыки',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Аналитика в digital-проектах',
@@ -4260,7 +4340,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Как пасти котов: правильное делегирование в IT',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Как ставить задачи и не ссориться с разработчиками',
@@ -4285,7 +4365,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Переговорные навыки. Часть 1. Цикл продаж',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Переговоры. Продажи. Введение',
@@ -4314,7 +4394,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Переговорные навыки. Провокации. Работа с возражениями. Часть 2.',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Подходящий-неподходящий клиент',
@@ -4347,7 +4427,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Оценка и декомпозиция digital-проектов',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Декомпозиция: не по функциям, а по экранам!',
@@ -4404,7 +4484,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Управление временем',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Методология GTD. Обзор инструментов. Пирамида Франклина и Колесо баланса.',
@@ -4429,7 +4509,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Scrum: передовая методология управления современными digital-проектами. Часть 1.',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Развитие водопадной модели. Появление гибких методологий. Как работает Scrum.',
@@ -4458,7 +4538,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Scrum. Передовая методология управления digital-проектами. Часть 2.',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Минимальная отчетность. Проведение стендапов',
@@ -4491,7 +4571,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Решение факапов. Lean/TOC. Обзор.',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Конвейер и большие запасы. Бережливое производство. Виды потерь.',
@@ -4520,7 +4600,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Интеграционные проекты.',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Интеграция. Что это такое и как с этим быть.',
@@ -4545,7 +4625,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Управление дизайнерами. Разработка дизайна по scrum',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Стратегии разработки дизайна',
@@ -4582,7 +4662,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Основы технической грамотности',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Как работает интернет',
@@ -4639,7 +4719,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Контроль. Риски. Поощрения. Наказания. Обратная связь.',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Обеспечение работы технической поддержки',
@@ -4680,7 +4760,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'БОНУСНЫЙ МОДУЛЬ: Работа с типовыми документами',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [
                         {
                             title: 'Документы для аккаунт-менеджера.',
@@ -4704,7 +4784,7 @@ const initialState =
                     id: uuidv4(),
                     title: 'Информация о дипломном проекте',
                     done: false,
-                    show: true,
+                    show: false,
                     lessons: [],
                 },
             ]
