@@ -1,5 +1,4 @@
 .course-section {
-    max-width: 960px;
     border: 1px solid black;
     cursor: pointer;
     padding: 10px;
@@ -9,7 +8,7 @@
 .title-wrapper {
     display: flex;
     align-items: center;
-    padding: 0px 10px;
+
 }
 
 .course-list-item:last-child {
