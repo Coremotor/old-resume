@@ -1,12 +1,16 @@
-import React from "react";
+import React, {useState} from "react";
 import {useSelector} from "react-redux";
-import Course from "../Course/Course";
+import Course from "./Course/Course";
 import styles from "./CoursesList.module.css";
 
 function CoursesList() {
 
     const allCourses = useSelector(state => state);
     const coursesKeysArr = Object.keys(allCourses);
+
+    const [coursesListShow, setCoursesListShow] = useState({
+        coursesListShow: false,
+    })
 
     const renderCourses = () => {
         return coursesKeysArr.map((name, index) => {
@@ -16,12 +20,25 @@ function CoursesList() {
     }
 
     return (
-        <section className='container'>
+        <section className={styles.coursesSection}>
 
-            <h1>Список курсов</h1>
+            <div className={styles.coursesListTitleWrapper}
+                 onClick={() => setCoursesListShow({coursesListShow: !coursesListShow.coursesListShow})}>
+
+                <h1 className={styles.coursesSectionTitle}>Список курсов</h1>
+                {
+                    coursesListShow.coursesListShow ? <div className={styles.arrowUp}/> :
+                        <div className={styles.arrowDown}/>
+                }
+            </div>
 
             {
-                renderCourses()
+                coursesListShow.coursesListShow &&
+                <ul>
+                    {
+                        renderCourses()
+                    }
+                </ul>
             }
         </section>
     );

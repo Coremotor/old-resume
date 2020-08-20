@@ -1,0 +1,17 @@
+.coursesListItem {
+    background-color: bisque;
+
+    border: 1px solid black;
+    cursor: pointer;
+    margin: 0 0 10px;
+}
+
+.coursesListItemTitle {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.modulesList {
+
+}

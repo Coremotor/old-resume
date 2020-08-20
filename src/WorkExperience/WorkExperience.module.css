@@ -1,0 +1,12 @@
+.workExperience {
+    outline: 1px solid grey;
+
+    composes: container from '../container.module.css';
+}
+
+.workExperienceTitleWrapper {
+    display: flex;
+}
+.workExperienceTitle {
+    width: 100%;
+}

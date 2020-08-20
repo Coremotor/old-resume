@@ -1,0 +1,7 @@
+.header {
+    display: flex;
+    outline: 1px solid green;
+    margin-bottom: 20px;
+
+    composes: container from '../container.module.css';
+}

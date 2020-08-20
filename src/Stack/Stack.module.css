@@ -1,0 +1,7 @@
+.stack {
+    display: flex;
+    outline: 1px solid blue;
+    margin-bottom: 20px;
+
+    composes: container from '../container.module.css';
+}

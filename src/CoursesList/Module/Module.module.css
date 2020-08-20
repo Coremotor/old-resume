@@ -1,0 +1,25 @@
+.modulesList {
+    padding: 0 20px;
+}
+
+.modulesListItem {
+    background-color: aquamarine;
+}
+
+.modulesListItemTitle {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.lessonsList{
+
+}
+
+.lessonsListItem {
+    background-color: aqua;
+
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}

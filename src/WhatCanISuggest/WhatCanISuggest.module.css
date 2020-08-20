@@ -1,0 +1,6 @@
+.whatCanISuggest {
+    outline: 1px solid red;
+    margin-bottom: 20px;
+
+    composes: container from '../container.module.css';
+}
