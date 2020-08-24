@@ -1,3 +1,4 @@
 .photoSection {
-outline: 1px solid red;
+    cursor: pointer;
+    outline: 1px solid red;
 }

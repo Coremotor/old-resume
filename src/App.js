@@ -5,6 +5,7 @@ import Header from "./Header/Header";
 import WhatCanISuggest from "./WhatCanISuggest/WhatCanISuggest";
 import Stack from "./Stack/Stack";
 import WorkExperience from "./WorkExperience/WorkExperience";
+import AboutMe from "./AboutMe/AboutMe";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <Stack/>
             <CoursesList/>
             <WorkExperience/>
+            <AboutMe/>
         </Fragment>
     );
 }

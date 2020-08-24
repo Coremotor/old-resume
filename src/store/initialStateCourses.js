@@ -1,6 +1,6 @@
 import {v4 as uuidv4} from 'uuid';
 
-const initialState =
+const initialStateCourses =
     {
         layout2019: {
             id: 'layout2019',
@@ -4791,4 +4791,4 @@ const initialState =
         },
     }
 
-export default initialState;
+export default initialStateCourses;

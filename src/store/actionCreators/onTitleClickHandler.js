@@ -1,5 +1,5 @@
-import {ON_COURSE_TITLE_CLICK_HANDLER} from "../actionTypes/titleClickHandlerTypes";
-import {ON_MODULE_TITLE_CLICK_HANDLER} from "../actionTypes/titleClickHandlerTypes";
+import {ON_COURSE_TITLE_CLICK_HANDLER} from "../actionTypes/actionTypes";
+import {ON_MODULE_TITLE_CLICK_HANDLER} from "../actionTypes/actionTypes";
 
 export function onCourseTitleClickHandler(
     courseShowVar,

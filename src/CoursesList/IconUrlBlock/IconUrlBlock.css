@@ -9,7 +9,6 @@
     height: 32px;
     background-position: center;
     background-repeat: no-repeat;
-    margin-left: 20px;
 }
 
 .icon-done {
@@ -18,7 +17,6 @@
     background-image: url("img/done.svg");
     background-position: center;
     background-repeat: no-repeat;
-    margin-left: 20px;
 }
 
 .icon-pause {

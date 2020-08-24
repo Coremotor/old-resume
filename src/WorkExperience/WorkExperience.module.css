@@ -2,11 +2,37 @@
     outline: 1px solid grey;
 
     composes: container from '../container.module.css';
+
+    margin-bottom: 20px;
+
+
 }
 
 .workExperienceTitleWrapper {
     display: flex;
+
+    cursor: pointer;
 }
+
 .workExperienceTitle {
     width: 100%;
+}
+
+.arrowUp {
+    width: 32px;
+    height: 32px;
+    background-image: url("img/arrow.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.arrowDown {
+    width: 32px;
+    height: 32px;
+    background-image: url("img/arrow.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+
 }

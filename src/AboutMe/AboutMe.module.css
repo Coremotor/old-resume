@@ -1,22 +1,19 @@
-.coursesSection {
-    margin-bottom: 20px;
+.aboutMe {
+    outline: 1px solid magenta;
 
     composes: container from '../container.module.css';
+
 }
 
-.coursesListTitleWrapper {
+.aboutMeTitleWrapper {
     display: flex;
-    align-items: center;
     cursor: pointer;
-    margin-bottom: 10px;
-
-    outline: 1px solid violet;
 
 }
-
-.coursesSectionTitle {
+.aboutMeTitle {
     width: 100%;
 }
+
 
 .arrowUp {
     width: 32px;
@@ -34,4 +31,5 @@
     background-position: center;
     background-repeat: no-repeat;
     transform: rotate(180deg);
+
 }

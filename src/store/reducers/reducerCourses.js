@@ -1,8 +1,12 @@
-import initialState from '../initialState';
-import {ON_COURSE_TITLE_CLICK_HANDLER, ON_MODULE_TITLE_CLICK_HANDLER} from "../actionTypes/titleClickHandlerTypes";
+import initialStateCourses from '../initialStateCourses';
+import {ON_COURSE_TITLE_CLICK_HANDLER, ON_MODULE_TITLE_CLICK_HANDLER} from "../actionTypes/actionTypes";
 
+function reducerCourses(state = initialStateCourses, action) {
 
-function rootReducer(state = initialState, action) {
+    //изначально менял видимость курсов, модулей и уроков через общий стейт потом
+    //решил через собственное состояние компонентов
+    //код ниже оставил для себя
+
     switch (action.type) {
         case ON_COURSE_TITLE_CLICK_HANDLER:
 
@@ -30,4 +34,4 @@ function rootReducer(state = initialState, action) {
     }
 }
 
-export default rootReducer;
+export default reducerCourses;
