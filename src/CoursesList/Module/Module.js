@@ -13,7 +13,7 @@ function Module({module}) {
             <div className={styles.modulesListItemTitle}
 
                  onClick={
-                     () => {
+                     (event) => {
                          setModuleState({showModule: !moduleState.showModule})
                      }
                  }
@@ -29,7 +29,7 @@ function Module({module}) {
                         module.lessons.map((lesson, index) => {
                             return (
                                 <li className={styles.lessonsListItem} key={index}>
-                                    <h6>{lesson.title}</h6>
+                                    <p>{lesson.title}</p>
                                     <IconUrlBlock obj={lesson}/>
                                 </li>
                             )

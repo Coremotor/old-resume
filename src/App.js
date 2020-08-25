@@ -6,6 +6,7 @@ import WhatCanISuggest from "./WhatCanISuggest/WhatCanISuggest";
 import Stack from "./Stack/Stack";
 import WorkExperience from "./WorkExperience/WorkExperience";
 import AboutMe from "./AboutMe/AboutMe";
+import Education from "./Education/Education";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <WhatCanISuggest/>
             <Stack/>
             <CoursesList/>
+            <Education/>
             <WorkExperience/>
             <AboutMe/>
         </Fragment>

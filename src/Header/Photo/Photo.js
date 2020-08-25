@@ -1,7 +1,6 @@
 import React, {useState} from "react";
 import styles from './Photo.module.css';
 
-
 const Photo = () => {
 
     const photoLinkArr = [
@@ -23,6 +22,9 @@ const Photo = () => {
              }}
         >
             <img src={photoLinkArr[count]} alt="myPhoto"/>
+
+            <span className={styles.photoSectionCount}>{count + 1}/{photoLinkArr.length}</span>
+
         </div>
     )
 }

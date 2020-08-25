@@ -7,13 +7,15 @@ const initialStateCourses =
             title: 'Веб-вёрстка 2019',
             done: true,
             inProcess: false,
-            finalWork: 'url',
+            finalWork: true,
+            finalWorkGithubUrl: 'https://yandex.ru/',
             comments: [],
             show: false,
             body: [
                 {
                     id: uuidv4(),
                     title: 'Вводный модуль',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -42,6 +44,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'HTML',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -74,6 +77,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Основы CSS',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -110,6 +114,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Основы JavaScript',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -146,6 +151,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Адаптивность и кроссбраузерность',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -178,6 +184,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Оформление',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -210,6 +217,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Advanced CSS',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -242,6 +250,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Инструменты верстальщика',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -283,13 +292,15 @@ const initialStateCourses =
             title: 'Веб-вёрстка 2020',
             done: false,
             inProcess: true,
-            finalWork: 'url',
+            finalWork: false,
+            finalWorkGithubUrl: 'url',
             comments: [],
             show: false,
             body: [
                 {
                     id: uuidv4(),
                     title: 'Введение',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -327,6 +338,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Базовый HTML',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -363,7 +375,8 @@ const initialStateCourses =
                 },
                 {
                     id: uuidv4(),
-                    title: 'Базовый HTML',
+                    title: 'Базовый CSS',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -409,6 +422,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Работа с макетом',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -438,6 +452,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Layout',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -479,6 +494,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Продвинутый HTML. Формы',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -508,6 +524,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Продвинутый СSS',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -561,6 +578,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Сетки',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -602,6 +620,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Адаптивность. Декстоп и планшет',
+                    inProcess: true,
                     done: false,
                     show: false,
                     lessons: [
@@ -639,6 +658,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Адаптивность. Мобильные устройства',
+                    inProcess: true,
                     done: false,
                     show: false,
                     lessons: [
@@ -673,6 +693,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Доступность (откроется 03.09.2020)',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -681,6 +702,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Javascript для верстальщика (откроется 06.11.2020)',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -689,6 +711,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Кроссбраузерность (откроется 27.11.2020)',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -697,6 +720,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Практикум (бонус) (откроется 18.12.2020)',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -705,6 +729,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Работа с хостингом (откроется 08.01.2021)',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -713,6 +738,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Курсовая (мини-проект)',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -721,6 +747,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Верстка HTML-писем',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -729,6 +756,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Сборщики',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -737,6 +765,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Препроцессоры и Постпроцессоры',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -745,6 +774,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'CSS Grid',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -753,6 +783,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Анимация',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -761,6 +792,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'CMS',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -769,6 +801,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Будущее верстки',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -777,6 +810,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Информация о дипломном проекте',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -789,13 +823,15 @@ const initialStateCourses =
             title: 'JavaScript 2019',
             done: true,
             inProcess: false,
-            finalWork: 'url',
+            finalWork: false,
+            finalWorkGithubUrl: 'url',
             comments: [],
             show: false,
             body: [
                 {
                     id: uuidv4(),
                     title: 'Знакомство с языком',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -833,6 +869,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Основы',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -894,6 +931,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Функции',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -939,6 +977,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Массивы и объекты',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -984,6 +1023,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Замыкания',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -1013,6 +1053,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Объекты и конструкторы',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -1038,6 +1079,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Объектно-ориентированное программирование',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -1067,6 +1109,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Разное',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -1104,6 +1147,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'JavaScript в браузере. DOM',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -1145,6 +1189,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Web API',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -1190,6 +1235,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Клиент и сервер',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -1223,6 +1269,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'jQuery',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -1260,6 +1307,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Современный JavaScript. ES 2015',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -1305,6 +1353,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Сборка проектов',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -1338,6 +1387,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'React',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -1371,6 +1421,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Redux',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -1412,6 +1463,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Бонус',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -1436,13 +1488,15 @@ const initialStateCourses =
             title: 'JavaScript 2020',
             done: false,
             inProcess: true,
-            finalWork: 'url',
+            finalWork: false,
+            finalWorkGithubUrl: 'url',
             comments: [],
             show: false,
             body: [
                 {
                     id: uuidv4(),
                     title: 'Введение',
+                    inProcess: true,
                     done: false,
                     show: false,
                     lessons: [
@@ -1472,6 +1526,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Переменные и работа с числами',
+                    inProcess: true,
                     done: false,
                     show: false,
                     lessons: [
@@ -1513,6 +1568,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Строки, boolean и условные операторы',
+                    inProcess: true,
                     done: false,
                     show: false,
                     lessons: [
@@ -1558,6 +1614,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Массивы и циклы',
+                    inProcess: true,
                     done: false,
                     show: false,
                     lessons: [
@@ -1599,6 +1656,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Функции',
+                    inProcess: true,
                     done: false,
                     show: false,
                     lessons: [
@@ -1636,6 +1694,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Объекты (откроется 25.08.2020)',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -1644,6 +1703,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Константы, области видимости и замыкания (откроется 11.09.2020)',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -1652,6 +1712,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Преобразование типов и нестрогие сравнения (откроется 29.09.2020)',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -1660,6 +1721,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Введение в DOM (откроется 15.10.2020)',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -1668,6 +1730,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Обработка событий и пользовательский ввод (откроется 03.11.2020)',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -1676,6 +1739,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Разработчик и soft skills',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -1684,6 +1748,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Модули',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -1692,6 +1757,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Npm, package.json',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -1700,6 +1766,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Event loop и асинхронная разработка',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -1708,6 +1775,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Методы объекта и прототипы',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -1716,6 +1784,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Тестирование',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -1724,6 +1793,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Обработка ошибок',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -1732,6 +1802,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Общение с сервером, async/await',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -1740,6 +1811,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'События',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -1748,6 +1820,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'ООП и его реализация в JavaScript',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -1756,6 +1829,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'ФП, работа с массивами и строками',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -1768,13 +1842,15 @@ const initialStateCourses =
             title: 'PHP-разработчик с нуля до PRO. Часть 1',
             done: false,
             inProcess: true,
-            finalWork: 'url',
+            finalWork: false,
+            finalWorkGithubUrl: 'url',
             comments: [],
             show: false,
             body: [
                 {
                     id: uuidv4(),
                     title: 'Введение в программирование',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -1836,6 +1912,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Структура управления данными. Базовые концепции PHP 7',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -1897,6 +1974,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Протокол HTTP/HTTPS',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -1926,6 +2004,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Пользовательские функции',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -1955,6 +2034,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Файлы и каталоги',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -1980,6 +2060,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Cookie/Session',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -2001,6 +2082,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'База данных MySQL',
+                    inProcess: true,
                     done: false,
                     show: false,
                     lessons: [
@@ -2070,13 +2152,15 @@ const initialStateCourses =
             title: 'PHP-разработчик с нуля до PRO. Часть 2',
             done: false,
             inProcess: true,
-            finalWork: 'url',
+            finalWork: false,
+            finalWorkGithubUrl: 'url',
             comments: [],
             show: false,
             body: [
                 {
                     id: uuidv4(),
                     title: 'Объекты (базовые понятия)',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -2114,6 +2198,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Принципы',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -2139,20 +2224,21 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Объекты (расширенные понятия)',
+                    inProcess: true,
                     done: false,
                     show: false,
                     lessons: [
                         {
                             title: 'Статические свойства и методы',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Абстрактные классы и методы',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Финальные классы и методы',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Домашняя работа',
@@ -2164,16 +2250,17 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Функции и стандарты по работе с классами',
+                    inProcess: true,
                     done: false,
                     show: false,
                     lessons: [
                         {
                             title: 'Функции по работе с классами и объектами',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Подгрузка классов. Стандарт PSR-0 и PSR-4',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Домашняя работа',
@@ -2185,6 +2272,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Исключения и другие встроенные классы',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -2207,6 +2295,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'ООП. Шаблоны',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -2256,13 +2345,15 @@ const initialStateCourses =
             title: 'PHP-разработчик с нуля до PRO. Часть 3',
             done: false,
             inProcess: false,
-            finalWork: 'url',
+            finalWork: false,
+            finalWorkGithubUrl: 'url',
             comments: [],
             show: false,
             body: [
                 {
                     id: uuidv4(),
                     title: 'Подготовка среды обучения. Ручной режим',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -2308,6 +2399,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Архитектура и проектирование',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -2325,6 +2417,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Структура проекта Laravel',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -2358,6 +2451,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'GIT и командная разработка',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -2391,6 +2485,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Laravel — начинающий уровень',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -2432,6 +2527,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Laravel — продвинутый уровень',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -2473,6 +2569,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Eloquent ORM и База данных',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -2506,6 +2603,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Laravel — очереди и WebSocket',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -2539,6 +2637,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Laravel — кеширование и оптимизация',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -2564,6 +2663,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Бонус-модуль. Введение в Symfony',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -2625,13 +2725,15 @@ const initialStateCourses =
             title: 'Система контроля версий Git',
             done: false,
             inProcess: false,
-            finalWork: 'url',
+            finalWork: false,
+            finalWorkGithubUrl: 'url',
             comments: [],
             show: false,
             body: [
                 {
                     id: uuidv4(),
                     title: 'Система контроля версий Git',
+                    inProcess: false,
                     done: false,
                     show: true,
                     lessons: [
@@ -2684,13 +2786,15 @@ const initialStateCourses =
             title: 'Программист 1С-Битрикс',
             done: false,
             inProcess: false,
-            finalWork: 'url',
+            finalWork: false,
+            finalWorkGithubUrl: 'url',
             comments: [],
             show: false,
             body: [
                 {
                     id: uuidv4(),
                     title: 'Философия разработки, подготовка рабочего места',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -2716,6 +2820,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Источник товаров и контента',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -2745,6 +2850,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Интеграция с 1С-Битрикс и другими системами',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -2770,6 +2876,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Создание страниц и шаблонов',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -2791,6 +2898,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Стандартные компоненты',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -2812,6 +2920,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Каталог интернет магазина',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -2833,6 +2942,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Карта товара',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -2854,6 +2964,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Оформление заказа',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -2875,6 +2986,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Личный кабинет',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -2896,6 +3008,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Дорабатываем сайт, ч.1',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -2913,6 +3026,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Дорабатываем сайт, ч.2',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -2930,6 +3044,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Бонусный материал: ответы на часто задаваемые вопросы',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -2946,13 +3061,15 @@ const initialStateCourses =
             title: 'PHP-фреймворк Symfony',
             done: false,
             inProcess: false,
-            finalWork: 'url',
+            finalWork: false,
+            finalWorkGithubUrl: 'url',
             comments: [],
             show: false,
             body: [
                 {
                     id: uuidv4(),
                     title: 'Введение в Symfony',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -3010,6 +3127,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Основы Symfony',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -3059,6 +3177,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Шаблонизатор Twig',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -3084,6 +3203,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Библиотека работы с базой данных Doctrine Orm',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -3109,6 +3229,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Фикстуры и расширения Doctrine',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -3130,6 +3251,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Связи в Doctrine. Часть 1 — Один ко многим',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -3155,6 +3277,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Связи в Doctrine. Часть 2',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -3180,6 +3303,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Система аутентификации',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -3209,6 +3333,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Роли и уровни доступов и безопасность',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -3234,6 +3359,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Доступы по API',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -3255,6 +3381,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Регистрация и классы Voter',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -3276,6 +3403,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Знакомство с компонентом Форм (откроется 19.08.2020)',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -3284,6 +3412,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Валидация вывод и обработка формы (откроется 02.09.2020)',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -3292,6 +3421,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Расширение полей и кастомная валидация (откроется 16.09.2020)',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -3300,6 +3430,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Загрузка файлов в Symfony (откроется 30.09.2020)',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -3308,6 +3439,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Сервис отправки электронных писем (откроется 14.10.2020)',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -3316,6 +3448,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Система Событий (откроется 28.10.2020)',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -3324,6 +3457,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Выделение переиспользуемых бандлов для Symfony (откроется 11.11.2020)',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -3336,13 +3470,15 @@ const initialStateCourses =
             title: 'JavaScript-фреймворк React.js',
             done: false,
             inProcess: true,
-            finalWork: 'url',
+            finalWork: false,
+            finalWorkGithubUrl: 'url',
             comments: [],
             show: false,
             body: [
                 {
                     id: uuidv4(),
                     title: 'Введение в React',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -3372,6 +3508,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Создание проекта',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -3405,6 +3542,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Typescript',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -3446,6 +3584,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Компоненты на примере новостной карточки Reddit',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -3482,6 +3621,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Hooks и Функциональное программирование',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -3510,6 +3650,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Больше о компонентах и введение в тестирование компонентов',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -3538,6 +3679,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Работа с публичным API на примере Reddit (откроется 12.08.2020)',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -3546,6 +3688,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Введение в Redux на примере Новостной ленты (откроется 08.09.2020)',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -3554,6 +3697,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Использование Redux-Thunk на примере бесконечной ленты (откроется 29.09.2020)',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -3562,6 +3706,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Сайдбар + роутинг (откроется 30.09.2020)',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -3570,6 +3715,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Формы на примере комментариев и карточки поста (откроется 20.10.2020)',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -3578,6 +3724,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Оптимизируем приложение (откроется 30.11.2020)',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -3586,6 +3733,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'SSR + NextJS (откроется 21.12.2020)',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -3594,6 +3742,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Бонус-модуль: Mobx (откроется 21.12.2020)',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -3606,13 +3755,15 @@ const initialStateCourses =
             title: 'Фреймворк Vue.js',
             done: false,
             inProcess: false,
-            finalWork: 'url',
+            finalWork: false,
+            finalWorkGithubUrl: 'url',
             comments: [],
             show: false,
             body: [
                 {
                     id: uuidv4(),
                     title: 'Основы Vue',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -3646,6 +3797,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Создание проекта',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -3679,6 +3831,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Каталог товаров',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -3712,6 +3865,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Пагинация и фильтрация',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -3745,6 +3899,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Страница товара',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -3770,6 +3925,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Корзина',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -3803,6 +3959,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Работа с API. Список товаров',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -3848,6 +4005,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Работа с API. Оформление заказа',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -3873,6 +4031,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Деплой (откроется 17.08.2020)',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -3885,13 +4044,15 @@ const initialStateCourses =
             title: 'Node.js',
             done: false,
             inProcess: false,
-            finalWork: 'url',
+            finalWork: false,
+            finalWorkGithubUrl: 'url',
             comments: [],
             show: false,
             body: [
                 {
                     id: uuidv4(),
                     title: 'Введение',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -3912,6 +4073,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Подготовка рабочей среды',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -3945,6 +4107,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Hello, world!',
+                    inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
@@ -3974,6 +4137,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Решаем базовые задачи',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -4007,6 +4171,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Асинхронный код',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -4044,6 +4209,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Express.js',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -4081,6 +4247,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Базы данных, Реляционные ДБ (откроется 25.08.2020)',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -4089,6 +4256,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Базы данных, Нереляционные БД (откроется 16.09.2020)',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -4097,6 +4265,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'CLI программы (откроется 02.10.2020)',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -4105,6 +4274,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Углубляем теорию + продвинутые понятия (откроется 15.10.2020)',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -4113,6 +4283,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Real-time & WebSockets (откроется 02.11.2020)',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -4121,6 +4292,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Pro tips (откроется 19.11.2020)',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -4129,6 +4301,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Информация о дипломном проекте (откроется 07.12.2020)',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],
@@ -4141,13 +4314,15 @@ const initialStateCourses =
             title: 'Универсальные знания программиста',
             done: false,
             inProcess: false,
-            finalWork: 'url',
+            finalWork: false,
+            finalWorkGithubUrl: 'url',
             comments: [],
             show: false,
             body: [
                 {
                     id: uuidv4(),
                     title: 'Протокол HTTP',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -4184,6 +4359,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Введение в алгоритмы',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -4240,13 +4416,15 @@ const initialStateCourses =
             title: 'Руководитель digital-проектов',
             done: false,
             inProcess: false,
-            finalWork: 'url',
+            finalWork: false,
+            finalWorkGithubUrl: 'url',
             comments: [],
             show: false,
             body: [
                 {
                     id: uuidv4(),
                     title: 'Экологичный путь менеджера',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -4272,6 +4450,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Релиз-менеджмент: готовим проекты к запуску',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -4293,6 +4472,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Требовательность digital-продюсера',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -4318,6 +4498,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Аналитика. Базовые навыки',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -4339,6 +4520,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Как пасти котов: правильное делегирование в IT',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -4364,6 +4546,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Переговорные навыки. Часть 1. Цикл продаж',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -4393,6 +4576,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Переговорные навыки. Провокации. Работа с возражениями. Часть 2.',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -4426,6 +4610,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Оценка и декомпозиция digital-проектов',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -4483,6 +4668,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Управление временем',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -4508,6 +4694,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Scrum: передовая методология управления современными digital-проектами. Часть 1.',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -4537,6 +4724,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Scrum. Передовая методология управления digital-проектами. Часть 2.',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -4570,6 +4758,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Решение факапов. Lean/TOC. Обзор.',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -4599,6 +4788,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Интеграционные проекты.',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -4624,6 +4814,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Управление дизайнерами. Разработка дизайна по scrum',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -4661,6 +4852,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Основы технической грамотности',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -4718,6 +4910,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Контроль. Риски. Поощрения. Наказания. Обратная связь.',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -4759,6 +4952,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'БОНУСНЫЙ МОДУЛЬ: Работа с типовыми документами',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [
@@ -4783,6 +4977,7 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Информация о дипломном проекте',
+                    inProcess: false,
                     done: false,
                     show: false,
                     lessons: [],

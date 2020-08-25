@@ -17,6 +17,8 @@
     background-image: url("img/done.svg");
     background-position: center;
     background-repeat: no-repeat;
+    margin-left: 10px;
+
 }
 
 .icon-pause {

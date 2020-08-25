@@ -1,4 +1,12 @@
 .photoSection {
+    position: relative;
     cursor: pointer;
     outline: 1px solid red;
+}
+
+.photoSectionCount {
+    position: absolute;
+    top: 90%;
+    left: 92%;
+    color: white;
 }

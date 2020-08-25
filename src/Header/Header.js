@@ -1,13 +1,17 @@
 import React from "react";
 import styles from './Header.module.css';
 import Photo from "./Photo/Photo";
-import WhoIWantToBe from "./WhoIWantToBe/WhoIWantToBe";
+import JobSought from "./jobSought/JobSought";
+import Contacts from "./Contacts/Contacts";
 
 const Header = () => {
-    return(
+    return (
         <header className={styles.header}>
             <Photo/>
-            <WhoIWantToBe/>
+            <div className={styles.headerInner}>
+                <JobSought/>
+                <Contacts/>
+            </div>
         </header>
     )
 }

@@ -7,7 +7,14 @@ export function IconUrlBlock({obj}) {
         <div className='icons-block'>
             {
                 obj.done &&
-                obj.githubLink && <a href={obj.githubLink}>GitHub</a>
+                // eslint-disable-next-line react/jsx-no-target-blank
+                obj.githubLink && <a id='git' href={obj.githubLink} target='_blank'>GitHub</a>
+            }
+
+            {
+                obj.hasOwnProperty('finalWork') &&
+                // eslint-disable-next-line react/jsx-no-target-blank
+                obj.finalWork && <a id='gitFW' href={obj.finalWorkGithubUrl} target='_blank'>GitHub</a>
             }
 
             {

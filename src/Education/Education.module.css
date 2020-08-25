@@ -1,20 +1,34 @@
-.aboutMe {
-    outline: 1px solid magenta;
+.education {
+    outline: 1px solid navajowhite;
+    margin-bottom: 20px;
 
     composes: container from '../container.module.css';
 }
 
-.aboutMeTitleWrapper {
+.educationTitleWrapper {
     display: flex;
-    cursor: pointer;
     align-items: center;
-
+    cursor: pointer;
 }
-.aboutMeTitle {
+
+.educationTitle {
     width: 100%;
     padding: 5px;
 }
 
+.educationList {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+
+.educationListItem {
+    margin-bottom: 10px;
+}
+
+.educationListItemText {
+    padding-left: 20px;
+}
 
 .arrowUp {
     width: 32px;
@@ -22,7 +36,6 @@
     background-image: url("img/arrow.svg");
     background-position: center;
     background-repeat: no-repeat;
-
 }
 
 .arrowDown {

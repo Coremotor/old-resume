@@ -25,7 +25,7 @@ function CoursesList() {
             <div className={styles.coursesListTitleWrapper}
                  onClick={() => setCoursesListShow({coursesListShow: !coursesListShow.coursesListShow})}>
 
-                <h1 className={styles.coursesSectionTitle}>Список курсов</h1>
+                <h2 className={styles.coursesSectionTitle}>Online-университет Skillbox. Профессия Web-Разработчик.</h2>
                 {
                     coursesListShow.coursesListShow ? <div className={styles.arrowUp}/> :
                         <div className={styles.arrowDown}/>
