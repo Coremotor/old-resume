@@ -18,6 +18,7 @@
     border-radius: 50%;
     transition: .2s;
     background-size: cover;
+    opacity: .5;
 }
 
 .contactsIcons:hover {
