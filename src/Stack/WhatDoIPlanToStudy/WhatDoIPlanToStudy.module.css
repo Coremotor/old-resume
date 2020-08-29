@@ -1,3 +1,19 @@
 .whatDoIPlanToStudy {
-    outline: 1px solid blueviolet;
+    background-color: #f7f3e3;
+    border-left: 1px solid #a8763e;
+    border-right: 1px solid #a8763e;
+}
+
+.whatDoIPlanToStudyTitle {
+    background-color: #a8763e;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.whatDoIPlanToStudyList {
+    padding-left: 10px;
+    padding-bottom: 10px;
+
 }

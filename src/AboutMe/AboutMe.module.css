@@ -1,35 +1,34 @@
 .aboutMe {
-    outline: 1px solid magenta;
+    margin-bottom: 50px;
 
     composes: container from '../container.module.css';
 }
 
 .aboutMeTitleWrapper {
     display: flex;
-    cursor: pointer;
     align-items: center;
-
+    cursor: pointer;
+    background-color: #a8763e;
+    border: 1px solid #a8763e;
+    color: white;
+    margin-bottom: 10px;
+    padding: 20px;
+    transition: .2s;
 }
+
+.aboutMeTitleWrapper:hover {
+    background-color: #f7f3e3;
+    color: #a8763e;
+    transition: .2s;
+}
+
 .aboutMeTitle {
+    font-size: 16px;
     width: 100%;
-    padding: 5px;
 }
 
-
-.arrowUp {
-    width: 32px;
-    height: 32px;
-    background-image: url("img/arrow.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-
-}
-
-.arrowDown {
-    width: 32px;
-    height: 32px;
-    background-image: url("img/arrow.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    transform: rotate(180deg);
+.aboutMeList {
+    border: 1px solid #a8763e;
+    background-color: #f7f3e3;
+    padding: 10px;
 }

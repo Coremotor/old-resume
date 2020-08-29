@@ -1,3 +1,94 @@
 .contacts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 10px;
+}
 
+.contactsWrapper {
+    display: flex;
+}
+
+.contactsIcons {
+    height: 32px;
+    width: 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 10px;
+    border-radius: 50%;
+    transition: .2s;
+    background-size: cover;
+}
+
+.contactsIcons:hover {
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.75);
+    transition: .2s;
+}
+
+.phoneNumber {
+    background-image: url('./img/phone.png');
+    composes: contactsIcons;
+}
+
+.email {
+    background-image: url('./img/email.png');
+    composes: contactsIcons;
+}
+
+.vk {
+    background-image: url('./img/vk.png');
+    composes: contactsIcons;
+}
+
+.fb {
+    background-image: url('./img/fb.png');
+    composes: contactsIcons;
+}
+
+.wa {
+    background-image: url('./img/wa.png');
+    composes: contactsIcons;
+}
+
+.vbr {
+    background-image: url('./img/vbr.png');
+    composes: contactsIcons;
+}
+
+.tg {
+    background-image: url('./img/tg.png');
+    composes: contactsIcons;
+}
+
+.sk {
+    background-image: url('./img/skype.png');
+    composes: contactsIcons;
+    margin-right: 0;
+}
+
+@media (max-width: 980px) {
+    .contacts {
+        flex-direction: column;
+        padding: 20px 10px;
+    }
+
+    .contactsWrapper:first-child {
+        margin-bottom: 10px;
+    }
+
+    .fb {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 750px) {
+    .contacts {
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+
+    .contactsWrapper:first-child {
+        margin-right: 10px;
+        margin-bottom: 0;
+    }
 }

@@ -23,15 +23,18 @@
 
 .icon-pause {
     background-image: url("img/pause.svg");
+    opacity: .5;
 }
 
 .icon-arrow-up {
     background-image: url("img/arrow.svg");
+    opacity: .5;
 }
 
 .icon-arrow-down {
     transform: rotate(180deg);
     background-image: url("img/arrow.svg");
+    opacity: .5;
 }
 
 

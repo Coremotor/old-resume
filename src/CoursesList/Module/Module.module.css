@@ -3,13 +3,20 @@
 }
 
 .modulesListItem {
-    background-color: aquamarine;
+    background-color: #f7f3e3;
 }
 
 .modulesListItemTitle {
     display: flex;
     align-items: center;
     padding: 10px;
+    transition: .2s;
+}
+
+.modulesListItemTitle:hover {
+    background-color: #a8763e;
+    color: white;
+    transition: .2s;
 }
 
 .lessonsList{
@@ -17,11 +24,10 @@
 }
 
 .lessonsListItem {
-    background-color: aqua;
-
     display: flex;
     align-items: center;
     padding: 10px;
+    background-color: #ecf0f1;
 
     cursor: auto;
 }

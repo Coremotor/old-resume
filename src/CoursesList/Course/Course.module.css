@@ -1,7 +1,6 @@
 .coursesListItem {
-    background-color: bisque;
-
-    border: 1px solid black;
+    background-color: #f7f3e3;
+    border: 1px solid #a8763e;
     cursor: pointer;
     margin: 0 0 10px;
 }
@@ -10,6 +9,13 @@
     display: flex;
     align-items: center;
     padding: 10px;
+    transition: .2s;
+}
+
+.coursesListItemTitle:hover {
+    background-color: #f7f3e3;
+    color: #a8763e;
+    transition: .2s;
 }
 
 .modulesList {

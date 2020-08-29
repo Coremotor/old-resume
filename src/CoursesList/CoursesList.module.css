@@ -8,31 +8,22 @@
     display: flex;
     align-items: center;
     cursor: pointer;
+    background-color: #a8763e;
+    border: 1px solid #a8763e;
+    color: white;
     margin-bottom: 10px;
+    padding: 20px;
+    transition: .2s;
+}
 
-    outline: 1px solid violet;
-
+.coursesListTitleWrapper:hover {
+    background-color: #f7f3e3;
+    color: #a8763e;
+    transition: .2s;
 }
 
 .coursesSectionTitle {
-    padding: 5px;
+    font-size: 16px;
     width: 100%;
 }
 
-.arrowUp {
-    width: 32px;
-    height: 32px;
-    background-image: url("img/arrow.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-
-}
-
-.arrowDown {
-    width: 32px;
-    height: 32px;
-    background-image: url("img/arrow.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    transform: rotate(180deg);
-}

@@ -7,14 +7,13 @@ export function IconUrlBlock({obj}) {
         <div className='icons-block'>
             {
                 obj.done &&
-                // eslint-disable-next-line react/jsx-no-target-blank
-                obj.githubLink && <a id='git' href={obj.githubLink} target='_blank'>GitHub</a>
+                obj.githubLink && <a id='git' href={obj.githubLink} target='_blank' rel="noopener noreferrer">Домашняя работа</a>
             }
 
             {
                 obj.hasOwnProperty('finalWork') &&
-                // eslint-disable-next-line react/jsx-no-target-blank
-                obj.finalWork && <a id='gitFW' href={obj.finalWorkGithubUrl} target='_blank'>GitHub</a>
+                obj.finalWork &&
+                <a id='gitFW' href={obj.finalWorkGithubUrl} target='_blank' rel="noopener noreferrer">Итоговая работа</a>
             }
 
             {
@@ -30,6 +29,36 @@ export function IconUrlBlock({obj}) {
 
                 obj.hasOwnProperty('show') ?
                     obj.show ? <div className='icon icon-arrow-up'/> : <div className='icon icon-arrow-down'/>
+                    : null
+            }
+
+            {
+                obj.hasOwnProperty('aboutMeShow') ?
+
+                    obj.aboutMeShow ? <div className='icon icon-arrow-up'/> : <div className='icon icon-arrow-down'/>
+                    : null
+            }
+
+            {
+                obj.hasOwnProperty('workExperienceShow') ?
+
+                    obj.workExperienceShow ? <div className='icon icon-arrow-up'/> :
+                        <div className='icon icon-arrow-down'/>
+                    : null
+            }
+
+            {
+                obj.hasOwnProperty('educationShow') ?
+
+                    obj.educationShow ? <div className='icon icon-arrow-up'/> : <div className='icon icon-arrow-down'/>
+                    : null
+            }
+
+            {
+                obj.hasOwnProperty('coursesListShow') ?
+
+                    obj.coursesListShow ? <div className='icon icon-arrow-up'/> :
+                        <div className='icon icon-arrow-down'/>
                     : null
             }
         </div>

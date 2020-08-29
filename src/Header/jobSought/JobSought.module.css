@@ -1,3 +1,22 @@
 .jobSought {
-    outline: 1px solid yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.jobSoughtTitle {
+    text-align: center;
+}
+
+.jobSoughtText {
+    font-size: 18px;
+}
+
+
+@media (max-width: 750px) {
+    .jobSought {
+        padding: 0;
+    }
 }

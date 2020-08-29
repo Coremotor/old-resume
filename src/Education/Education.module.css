@@ -1,5 +1,4 @@
 .education {
-    outline: 1px solid navajowhite;
     margin-bottom: 20px;
 
     composes: container from '../container.module.css';
@@ -9,40 +8,32 @@
     display: flex;
     align-items: center;
     cursor: pointer;
+    background-color: #a8763e;
+    border: 1px solid #a8763e;
+    color: white;
+    margin-bottom: 10px;
+    padding: 20px;
+    transition: .2s;
+}
+
+.educationTitleWrapper:hover {
+    background-color: #f7f3e3;
+    color: #a8763e;
+    transition: .2s;
 }
 
 .educationTitle {
+    font-size: 16px;
     width: 100%;
-    padding: 5px;
-}
-
-.educationList {
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-top: 20px;
 }
 
 .educationListItem {
+    border: 1px solid #a8763e;
+    background-color: #f7f3e3;
+    padding: 10px;
     margin-bottom: 10px;
 }
 
 .educationListItemText {
     padding-left: 20px;
-}
-
-.arrowUp {
-    width: 32px;
-    height: 32px;
-    background-image: url("img/arrow.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.arrowDown {
-    width: 32px;
-    height: 32px;
-    background-image: url("img/arrow.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    transform: rotate(180deg);
 }

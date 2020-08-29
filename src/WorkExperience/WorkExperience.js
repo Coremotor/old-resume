@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import styles from './WorkExperience.module.css';
+import {IconUrlBlock} from "../CoursesList/IconUrlBlock/IconUrlBlock";
 
 const WorkExperience = () => {
 
@@ -15,10 +16,7 @@ const WorkExperience = () => {
 
                 <h2 className={styles.workExperienceTitle}>Опыт работы</h2>
 
-                {
-                    workExperienceShow.workExperienceShow ? <div className={styles.arrowUp}/> :
-                        <div className={styles.arrowDown}/>
-                }
+                <IconUrlBlock obj={workExperienceShow}/>
             </div>
 
             {

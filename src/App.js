@@ -7,6 +7,7 @@ import Stack from "./Stack/Stack";
 import WorkExperience from "./WorkExperience/WorkExperience";
 import AboutMe from "./AboutMe/AboutMe";
 import Education from "./Education/Education";
+import Footer from "./Footer/Footer";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
             <Education/>
             <WorkExperience/>
             <AboutMe/>
+            <Footer/>
         </Fragment>
     );
 }

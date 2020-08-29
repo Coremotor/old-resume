@@ -278,11 +278,6 @@ const initialStateCourses =
                             title: 'Другие среды разработки. NetBeans, WebStorm',
                             done: true,
                         },
-                        {
-                            title: 'Информация о дипломном проекте',
-                            done: true,
-                            githubLink: 'url',
-                        },
                     ],
                 },
             ]

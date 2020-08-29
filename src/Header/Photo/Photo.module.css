@@ -1,12 +1,16 @@
 .photoSection {
     position: relative;
     cursor: pointer;
-    outline: 1px solid red;
+    height: 300px;
+    width: 300px;
+}
+
+.photoSectionImg {
+    border-radius: 50%;
 }
 
 .photoSectionCount {
     position: absolute;
     top: 90%;
     left: 92%;
-    color: white;
 }

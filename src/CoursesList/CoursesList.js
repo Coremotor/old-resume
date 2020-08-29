@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import {useSelector} from "react-redux";
 import Course from "./Course/Course";
 import styles from "./CoursesList.module.css";
+import {IconUrlBlock} from "./IconUrlBlock/IconUrlBlock";
 
 function CoursesList() {
 
@@ -26,10 +27,8 @@ function CoursesList() {
                  onClick={() => setCoursesListShow({coursesListShow: !coursesListShow.coursesListShow})}>
 
                 <h2 className={styles.coursesSectionTitle}>Online-университет Skillbox. Профессия Web-Разработчик.</h2>
-                {
-                    coursesListShow.coursesListShow ? <div className={styles.arrowUp}/> :
-                        <div className={styles.arrowDown}/>
-                }
+
+                <IconUrlBlock obj={coursesListShow}/>
             </div>
 
             {

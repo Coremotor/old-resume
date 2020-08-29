@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import styles from './Education.module.css';
+import {IconUrlBlock} from "../CoursesList/IconUrlBlock/IconUrlBlock";
 
 const Education = () => {
 
@@ -14,10 +15,7 @@ const Education = () => {
             >
                 <h2 className={styles.educationTitle}>Образование</h2>
 
-                {
-                    educationShow.educationShow ? <div className={styles.arrowUp}/> :
-                        <div className={styles.arrowDown}/>
-                }
+                <IconUrlBlock obj={educationShow}/>
             </div>
 
             {
@@ -29,7 +27,8 @@ const Education = () => {
                         <p className={styles.educationListItemText}>Год окончания: 2007</p>
                         <p className={styles.educationListItemText}>Академическая степень: инженер</p>
                         <p className={styles.educationListItemText}>Факультет: лесопромышленный</p>
-                        <p className={styles.educationListItemText}>Специализация: стандартизация, сертификация и метрология</p>
+                        <p className={styles.educationListItemText}>Специализация: стандартизация, сертификация и
+                            метрология</p>
                     </li>
 
                     <li className={styles.educationListItem}>

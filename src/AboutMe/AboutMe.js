@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import styles from './AboutMe.module.css';
+import {IconUrlBlock} from "../CoursesList/IconUrlBlock/IconUrlBlock";
 
 const AboutMe = () => {
 
@@ -9,26 +10,23 @@ const AboutMe = () => {
 
     return (
         <section className={styles.aboutMe}>
-
             <div className={styles.aboutMeTitleWrapper}
                  onClick={() => setAboutMeShow({aboutMeShow: !aboutMeShow.aboutMeShow})}
             >
 
                 <h2 className={styles.aboutMeTitle}>Обо мне</h2>
 
-                {
-                    aboutMeShow.aboutMeShow ? <div className={styles.arrowUp}/> :
-                        <div className={styles.arrowDown}/>
-                }
+                <IconUrlBlock obj={aboutMeShow}/>
+
             </div>
 
             {
                 aboutMeShow.aboutMeShow &&
-                <ul>
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
-                    <li>4</li>
+                <ul className={styles.aboutMeList}>
+                    <li className={styles.aboutMeListItem}>Прокачанные soft skills.</li>
+                    <li className={styles.aboutMeListItem}>Спорт: хоккей.</li>
+                    <li className={styles.aboutMeListItem}>Отдых: лес, костер, палатка.</li>
+                    <li className={styles.aboutMeListItem}>Свободное время: семья, друзья, велик, самообучение.</li>
                 </ul>
             }
         </section>

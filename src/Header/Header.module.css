@@ -1,13 +1,21 @@
 .header {
     display: flex;
-    outline: 1px solid green;
+    align-items: center;
+
     margin-bottom: 20px;
 
     composes: container from '../container.module.css';
+
 }
 
 .headerInner {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    flex-grow: 1;
+}
+
+@media (max-width: 750px) {
+    .header {
+        flex-direction: column-reverse;
+    }
 }
