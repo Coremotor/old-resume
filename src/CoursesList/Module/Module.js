@@ -1,12 +1,12 @@
-import React, {useState} from "react";
+import React from "react";
 import {IconUrlBlock} from "../IconUrlBlock/IconUrlBlock";
 import styles from './Module.module.css';
+import {onModuleTitleClickHandler} from "../../store/actionCreators/onTitleClickHandler";
+import {useDispatch} from "react-redux";
 
-function Module({module}) {
+function Module({module, course}) {
 
-    const [moduleState, setModuleState] = useState({
-        showModule: false,
-    })
+    const dispatch = useDispatch();
 
     return (
         <li className={styles.modulesListItem}>
@@ -14,7 +14,7 @@ function Module({module}) {
 
                  onClick={
                      (event) => {
-                         setModuleState({showModule: !moduleState.showModule})
+                         dispatch(onModuleTitleClickHandler(course.id, !module.show, module.id))
                      }
                  }
             >
@@ -23,7 +23,7 @@ function Module({module}) {
             </div>
 
             {
-                moduleState.showModule &&
+                module.show &&
                 <ul className={styles.lessonsList}>
                     {
                         module.lessons.map((lesson, index) => {

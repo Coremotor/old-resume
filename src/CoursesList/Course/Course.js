@@ -1,15 +1,16 @@
-import React, {useState} from 'react';
-import {useSelector} from "react-redux";
+import React from 'react';
+import {useDispatch, useSelector} from "react-redux";
 import styles from './Course.module.css';
+import '../IconUrlBlock/IconUrlBlock.css';
 import {IconUrlBlock} from "../IconUrlBlock/IconUrlBlock";
 import Module from "../Module/Module";
+import {onCourseTitleClickHandler} from "../../store/actionCreators/onTitleClickHandler";
 
 function Course({name}) {
 
     const course = useSelector(state => state[name]);
-    const [courseState, setCourseState] = useState({
-        showCourse: false,
-    })
+
+    const dispatch = useDispatch();
 
     return (
         <li className={styles.coursesListItem}>
@@ -17,7 +18,7 @@ function Course({name}) {
                  onClick={
                      (event) => {
                          if (event.target.id === 'gitFW') return;
-                         setCourseState({showCourse: !courseState.showCourse})
+                         dispatch(onCourseTitleClickHandler(!course.show, course.id, course.title))
                      }
                  }
             >
@@ -26,12 +27,12 @@ function Course({name}) {
             </div>
 
             {
-                courseState.showCourse &&
+                course.show &&
                 <ul className={styles.modulesList}>
                     {
                         course.body.map((module, index) => {
                             return (
-                                <Module key={index} module={module}/>
+                                <Module key={index} module={module} course={course}/>
                             )
                         })
                     }

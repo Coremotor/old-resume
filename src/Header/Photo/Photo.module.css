@@ -3,6 +3,7 @@
     cursor: pointer;
     height: 300px;
     width: 300px;
+    margin-left: 40px;
 }
 
 .photoSectionImg {
@@ -13,4 +14,10 @@
     position: absolute;
     top: 90%;
     left: 92%;
+}
+
+@media (max-width: 750px) {
+    .photoSection {
+        margin-left: 0;
+    }
 }

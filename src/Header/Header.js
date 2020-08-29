@@ -1,7 +1,7 @@
 import React from "react";
 import styles from './Header.module.css';
 import Photo from "./Photo/Photo";
-import JobSought from "./jobSought/JobSought";
+import JobSought from "./JobSought/JobSought";
 import Contacts from "./Contacts/Contacts";
 
 const Header = () => {

@@ -3,10 +3,6 @@ import {ON_COURSE_TITLE_CLICK_HANDLER, ON_MODULE_TITLE_CLICK_HANDLER} from "../a
 
 function reducerCourses(state = initialStateCourses, action) {
 
-    //изначально менял видимость курсов, модулей и уроков через общий стейт потом
-    //решил через собственное состояние компонентов
-    //код ниже оставил для себя
-
     switch (action.type) {
         case ON_COURSE_TITLE_CLICK_HANDLER:
 

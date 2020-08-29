@@ -8,7 +8,7 @@ const initialStateCourses =
             done: true,
             inProcess: false,
             finalWork: true,
-            finalWorkGithubUrl: 'https://yandex.ru/',
+            finalWorkGithubUrl: 'https://github.com/Coremotor/course-web-layout-2019-diplom-work',
             comments: [],
             show: false,
             body: [
@@ -857,7 +857,7 @@ const initialStateCourses =
                         {
                             title: 'Домашняя работа',
                             done: true,
-                            githubLink: 'url',
+                            githubLink: 'https://github.com/Coremotor/cource-javascript-developer-2019/tree/master/JS_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C_1',
                         },
                     ],
                 },
@@ -919,7 +919,7 @@ const initialStateCourses =
                         {
                             title: 'Домашняя работа',
                             done: true,
-                            githubLink: 'url',
+                            githubLink: 'https://github.com/Coremotor/cource-javascript-developer-2019/tree/master/JS_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C_2',
                         },
                     ],
                 },
@@ -965,7 +965,7 @@ const initialStateCourses =
                         {
                             title: 'Домашняя работа',
                             done: true,
-                            githubLink: 'url',
+                            githubLink: 'https://github.com/Coremotor/cource-javascript-developer-2019/tree/master/JS_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C_3',
                         },
                     ],
                 },
@@ -1011,7 +1011,7 @@ const initialStateCourses =
                         {
                             title: 'Домашняя работа',
                             done: true,
-                            githubLink: 'url',
+                            githubLink: 'https://github.com/Coremotor/cource-javascript-developer-2019/tree/master/JS_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C_4',
                         },
                     ],
                 },
@@ -1041,7 +1041,7 @@ const initialStateCourses =
                         {
                             title: 'Домашняя работа',
                             done: true,
-                            githubLink: 'url',
+                            githubLink: 'https://github.com/Coremotor/cource-javascript-developer-2019/tree/master/JS_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C_5',
                         },
                     ],
                 },
@@ -1067,7 +1067,7 @@ const initialStateCourses =
                         {
                             title: 'Домашняя работа',
                             done: true,
-                            githubLink: 'url',
+                            githubLink: 'https://github.com/Coremotor/cource-javascript-developer-2019/tree/master/JS_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C_6',
                         },
                     ],
                 },
@@ -1097,7 +1097,7 @@ const initialStateCourses =
                         {
                             title: 'Домашняя работа',
                             done: true,
-                            githubLink: 'url',
+                            githubLink: 'https://github.com/Coremotor/cource-javascript-developer-2019/tree/master/JS_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C_7',
                         },
                     ],
                 },
@@ -1135,7 +1135,7 @@ const initialStateCourses =
                         {
                             title: 'Домашняя работа',
                             done: true,
-                            githubLink: 'url',
+                            githubLink: 'https://github.com/Coremotor/cource-javascript-developer-2019/tree/master/JS_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C_8',
                         },
                     ],
                 },
@@ -1177,7 +1177,7 @@ const initialStateCourses =
                         {
                             title: 'Домашняя работа',
                             done: true,
-                            githubLink: 'url',
+                            githubLink: 'https://github.com/Coremotor/cource-javascript-developer-2019/tree/master/JS_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C_9',
                         },
                     ],
                 },
@@ -1223,7 +1223,7 @@ const initialStateCourses =
                         {
                             title: 'Домашняя работа',
                             done: true,
-                            githubLink: 'url',
+                            githubLink: 'https://github.com/Coremotor/cource-javascript-developer-2019/tree/master/JS_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C_10',
                         },
                     ],
                 },
@@ -1257,7 +1257,7 @@ const initialStateCourses =
                         {
                             title: 'Домашняя работа',
                             done: true,
-                            githubLink: 'url',
+                            githubLink: 'https://github.com/Coremotor/cource-javascript-developer-2019/tree/master/JS_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C_11',
                         },
                     ],
                 },
@@ -1295,7 +1295,7 @@ const initialStateCourses =
                         {
                             title: 'Домашняя работа',
                             done: true,
-                            githubLink: 'url',
+                            githubLink: 'https://github.com/Coremotor/cource-javascript-developer-2019/tree/master/JS_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C_12',
                         },
                     ],
                 },
@@ -1341,7 +1341,7 @@ const initialStateCourses =
                         {
                             title: 'Домашняя работа',
                             done: true,
-                            githubLink: 'url',
+                            githubLink: 'https://github.com/Coremotor/cource-javascript-developer-2019/tree/master/JS_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C_13',
                         },
                     ],
                 },
@@ -1375,7 +1375,7 @@ const initialStateCourses =
                         {
                             title: 'Домашняя работа',
                             done: true,
-                            githubLink: 'url',
+                            githubLink: 'https://github.com/Coremotor/cource-javascript-developer-2019/tree/master/JS_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C_14',
                         },
                     ],
                 },
@@ -1409,7 +1409,7 @@ const initialStateCourses =
                         {
                             title: 'Домашняя работа',
                             done: true,
-                            githubLink: 'url',
+                            githubLink: 'https://github.com/Coremotor/cource-javascript-developer-2019/tree/master/JS_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C_15_react-app',
                         },
                     ],
                 },
@@ -1451,7 +1451,7 @@ const initialStateCourses =
                         {
                             title: 'Домашняя работа',
                             done: true,
-                            githubLink: 'url',
+                            githubLink: 'https://github.com/Coremotor/cource-javascript-developer-2019/tree/master/JS_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C_16_react-redux-app',
                         },
                     ],
                 },
