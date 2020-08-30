@@ -326,7 +326,7 @@ const initialStateCourses =
                         {
                             title: 'Домашняя работа',
                             done: true,
-                            githubLink: 'url',
+                            githubLink: 'https://github.com/Coremotor/course-web-layout-2020/tree/master/module_1',
                         },
                     ],
                 },
@@ -364,7 +364,7 @@ const initialStateCourses =
                         {
                             title: 'Домашняя работа',
                             done: true,
-                            githubLink: 'url',
+                            githubLink: 'https://github.com/Coremotor/course-web-layout-2020/tree/master/module_2_v2',
                         },
                     ],
                 },
@@ -410,7 +410,7 @@ const initialStateCourses =
                         {
                             title: 'Домашняя работа',
                             done: true,
-                            githubLink: 'url',
+                            githubLink: 'https://github.com/Coremotor/course-web-layout-2020/tree/master/module_3_v2',
                         },
                     ],
                 },
@@ -440,7 +440,7 @@ const initialStateCourses =
                         {
                             title: 'Домашняя работа',
                             done: true,
-                            githubLink: 'url',
+                            githubLink: 'https://github.com/Coremotor/course-web-layout-2020/tree/master/module_4_v2',
                         },
                     ],
                 },
@@ -482,7 +482,7 @@ const initialStateCourses =
                         {
                             title: 'Домашняя работа',
                             done: true,
-                            githubLink: 'url',
+                            githubLink: 'https://github.com/Coremotor/course-web-layout-2020/tree/master/module_5',
                         },
                     ],
                 },
@@ -508,11 +508,6 @@ const initialStateCourses =
                         {
                             title: 'Формы',
                             done: true,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: true,
-                            githubLink: 'url',
                         },
                     ],
                 },
@@ -563,11 +558,6 @@ const initialStateCourses =
                             title: 'БЭМ-именование',
                             done: true,
                         },
-                        {
-                            title: 'Домашняя работа',
-                            done: true,
-                            githubLink: 'url',
-                        },
                     ],
                 },
                 {
@@ -608,7 +598,7 @@ const initialStateCourses =
                         {
                             title: 'Домашняя работа',
                             done: true,
-                            githubLink: 'url',
+                            githubLink: 'https://github.com/Coremotor/course-web-layout-2020/tree/master/module_8',
                         },
                     ],
                 },
@@ -1900,7 +1890,7 @@ const initialStateCourses =
                         {
                             title: 'Домашняя работа',
                             done: true,
-                            githubLink: 'url',
+                            githubLink: 'https://github.com/Coremotor/course-php-developer-2020/tree/master/php-module-1',
                         },
                     ],
                 },
@@ -1962,7 +1952,7 @@ const initialStateCourses =
                         {
                             title: 'Домашняя работа',
                             done: true,
-                            githubLink: 'url',
+                            githubLink: 'https://github.com/Coremotor/course-php-developer-2020/tree/master/php-module-2',
                         },
                     ],
                 },
@@ -1988,11 +1978,6 @@ const initialStateCourses =
                         {
                             title: 'Пример интеграции верстки',
                             done: true,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: true,
-                            githubLink: 'url',
                         },
                     ],
                 },
@@ -2022,7 +2007,7 @@ const initialStateCourses =
                         {
                             title: 'Домашняя работа',
                             done: true,
-                            githubLink: 'url',
+                            githubLink: 'https://github.com/Coremotor/course-php-developer-2020/tree/master/task.manager',
                         },
                     ],
                 },
@@ -2048,7 +2033,7 @@ const initialStateCourses =
                         {
                             title: 'Домашняя работа',
                             done: true,
-                            githubLink: 'url',
+                            githubLink: 'https://github.com/Coremotor/course-php-developer-2020/tree/master/picture.gallery',
                         },
                     ],
                 },
@@ -2070,7 +2055,7 @@ const initialStateCourses =
                         {
                             title: 'Домашняя работа',
                             done: true,
-                            githubLink: 'url',
+                            githubLink: 'https://github.com/Coremotor/course-php-developer-2020/tree/master/task.manager',
                         },
                     ],
                 },
@@ -2186,7 +2171,7 @@ const initialStateCourses =
                         {
                             title: 'Домашняя работа',
                             done: true,
-                            githubLink: 'url',
+                            githubLink: 'https://github.com/Coremotor/course-php-developer-2020/tree/master/oop-module-1',
                         },
                     ],
                 },
@@ -2212,7 +2197,7 @@ const initialStateCourses =
                         {
                             title: 'Домашняя работа',
                             done: true,
-                            githubLink: 'url',
+                            githubLink: 'https://github.com/Coremotor/course-php-developer-2020/tree/master/oop-module-2',
                         },
                     ],
                 },
@@ -2237,8 +2222,8 @@ const initialStateCourses =
                         },
                         {
                             title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
+                            done: true, //не полностью
+                            githubLink: 'https://github.com/Coremotor/course-php-developer-2020/tree/master/oop-module-3',
                         },
                     ],
                 },
