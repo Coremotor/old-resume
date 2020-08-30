@@ -3478,11 +3478,6 @@ const initialStateCourses =
                             title: 'Экосистема React, основные библиотеки, из чего обычно состоит реакт',
                             done: true,
                         },
-                        {
-                            title: 'Домашняя работа',
-                            done: true,
-                            githubLink: 'url',
-                        },
                     ],
                 },
                 {
@@ -3511,11 +3506,6 @@ const initialStateCourses =
                         {
                             title: 'CSS modules, Jest, Enzyme',
                             done: true,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: true,
-                            githubLink: 'url',
                         },
                     ],
                 },
@@ -3553,11 +3543,6 @@ const initialStateCourses =
                         {
                             title: 'Infer, typeof, keyof, Mapped Types',
                             done: true,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: true,
-                            githubLink: 'url',
                         },
                     ],
                 },

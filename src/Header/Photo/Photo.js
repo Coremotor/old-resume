@@ -21,7 +21,7 @@ const Photo = () => {
                  }
              }}
         >
-            <img  className={styles.photoSectionImg} src={photoLinkArr[count]} alt="myPhoto"/>
+            <img className={styles.photoSectionImg} src={photoLinkArr[count]} alt="myPhoto"/>
 
             <span className={styles.photoSectionCount}>{count + 1}/{photoLinkArr.length}</span>
 

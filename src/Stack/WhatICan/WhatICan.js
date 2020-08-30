@@ -6,17 +6,16 @@ const WhatICan = () => {
         <section className={styles.whatICan}>
             <h2 className={styles.whatICanTitle}>Навыки:</h2>
             <ul className={styles.whatICanList}>
-                <li className={styles.whatICanListItem}>HTML5</li>
-                <li className={styles.whatICanListItem}>CSS3, SCSS</li>
-                <li className={styles.whatICanListItem}>Валидная, адаптивная кроссбраузерная верстка</li>
-                <li className={styles.whatICanListItem}>БЭМ</li>
-                <li className={styles.whatICanListItem}>JavaScript, ES6+</li>
-                <li className={styles.whatICanListItem}>Базовые навыки React, Redux</li>
-                <li className={styles.whatICanListItem}>Gulp</li>
-                <li className={styles.whatICanListItem}>Webpack</li>
-                <li className={styles.whatICanListItem}>Git</li>
+                <li>HTML5</li>
+                <li>CSS3, SCSS</li>
+                <li>Валидная, адаптивная кроссбраузерная верстка</li>
+                <li>БЭМ</li>
+                <li>JavaScript, ES6+</li>
+                <li>Базовые навыки React, Redux</li>
+                <li>Gulp</li>
+                <li>Webpack</li>
+                <li>Git</li>
             </ul>
-
         </section>
     )
 }

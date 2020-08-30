@@ -7,13 +7,15 @@ export function IconUrlBlock({obj}) {
         <div className='icons-block'>
             {
                 obj.done &&
-                obj.githubLink && <a id='git' href={obj.githubLink} target='_blank' rel="noopener noreferrer">Домашняя работа</a>
+                obj.githubLink &&
+                <a id='git' href={obj.githubLink} target='_blank' rel="noopener noreferrer">Домашняя работа</a>
             }
 
             {
                 obj.hasOwnProperty('finalWork') &&
                 obj.finalWork &&
-                <a id='gitFW' href={obj.finalWorkGithubUrl} target='_blank' rel="noopener noreferrer">Итоговая работа</a>
+                <a id='gitFW' href={obj.finalWorkGithubUrl} target='_blank' rel="noopener noreferrer">Итоговая
+                    работа</a>
             }
 
             {

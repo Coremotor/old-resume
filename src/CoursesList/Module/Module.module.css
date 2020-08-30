@@ -19,15 +19,14 @@
     transition: .2s;
 }
 
-.lessonsList{
+.lessonsList {
 
 }
 
 .lessonsListItem {
     display: flex;
     align-items: center;
-    padding: 10px;
-    background-color: #ecf0f1;
-
+    padding: 0 10px 0 30px;
+    background-color: #f7f3e3;
     cursor: auto;
 }

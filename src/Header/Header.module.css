@@ -1,11 +1,9 @@
 .header {
     display: flex;
     align-items: center;
-
     margin-bottom: 20px;
 
     composes: container from '../container.module.css';
-
 }
 
 .headerInner {
