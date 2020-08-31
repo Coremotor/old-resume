@@ -14,7 +14,7 @@ function Course({name}) {
 
     return (
         <li className={styles.coursesListItem}>
-            <div className={styles.coursesListItemTitle}
+            <div className={styles.coursesListItemTitleWrapper}
                  onClick={
                      (event) => {
                          if (event.target.id === 'gitFW') return;
@@ -22,7 +22,7 @@ function Course({name}) {
                      }
                  }
             >
-                <h2>{course.title}</h2>
+                <h2 className={styles.coursesListItemTitle}>{course.title}</h2>
                 <IconUrlBlock obj={course}/>
             </div>
 

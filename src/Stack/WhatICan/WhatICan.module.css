@@ -16,3 +16,13 @@
 .whatICanList {
     padding: 0 10px 10px;
 }
+
+@media (max-width: 480px) {
+    .whatICanTitle {
+        font-size: 14px;
+    }
+
+    .whatICanList {
+        font-size: 12px;
+    }
+}

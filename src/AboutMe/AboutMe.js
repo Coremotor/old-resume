@@ -23,10 +23,10 @@ const AboutMe = () => {
             {
                 aboutMeShow.aboutMeShow &&
                 <ul className={styles.aboutMeList}>
-                    <li className={styles.aboutMeListItem}>Прокачанные soft skills.</li>
-                    <li className={styles.aboutMeListItem}>Спорт: хоккей.</li>
-                    <li className={styles.aboutMeListItem}>Отдых: лес, костер, палатка.</li>
-                    <li className={styles.aboutMeListItem}>Свободное время: семья, друзья, велик, самообучение.</li>
+                    <li>Прокачанные soft skills.</li>
+                    <li>Спорт: хоккей.</li>
+                    <li>Отдых: лес, костер, палатка.</li>
+                    <li>Свободное время: семья, друзья, велик, самообучение.</li>
                 </ul>
             }
         </section>

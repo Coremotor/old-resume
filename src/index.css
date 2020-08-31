@@ -11,10 +11,12 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     box-sizing: border-box;
-    min-width: 480px;
 
     background-color: #f7f3e3;
     color: #2b2118;
+
+    -webkit-tap-highlight-color: transparent;
+
 }
 
 code {
@@ -48,5 +50,7 @@ h2, h3, h4 {
 h2 {
     font-size: 18px;
 }
+
+
 
 

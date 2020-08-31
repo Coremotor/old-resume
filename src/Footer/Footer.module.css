@@ -17,3 +17,14 @@
 .footerLink:visited {
     color: black;
 }
+
+@media (max-width: 480px) {
+    .footerText {
+        display: block;
+    }
+
+    .footerText:first-child {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+}

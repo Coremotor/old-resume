@@ -4,9 +4,9 @@ import styles from './Photo.module.css';
 const Photo = () => {
 
     const photoLinkArr = [
-        'http://coremotor.ru/img/1.jpg',
-        'http://coremotor.ru/img/2.jpg',
-        'http://coremotor.ru/img/3.jpg',
+        'http://coremotor.ru/img/11.png',
+        'http://coremotor.ru/img/22.png',
+        'http://coremotor.ru/img/33.png',
     ]
 
     const [count, setCount] = useState(0);
@@ -23,7 +23,7 @@ const Photo = () => {
         >
             <img className={styles.photoSectionImg} src={photoLinkArr[count]} alt="myPhoto"/>
 
-            <span className={styles.photoSectionCount}>{count + 1}/{photoLinkArr.length}</span>
+            <span className={styles.photoSectionCount}>{count + 1} из {photoLinkArr.length}</span>
 
         </div>
     )

@@ -1678,12 +1678,36 @@ const initialStateCourses =
                 },
                 {
                     id: uuidv4(),
-                    title: 'Объекты (откроется 25.08.2020)',
-                    inProcess: false,
+                    title: 'Объекты',
+                    inProcess: true,
                     done: false,
                     show: false,
-                    lessons: [],
-                    inDevelopment: true,
+                    lessons: [
+                        {
+                            title: 'Intro',
+                            done: true,
+                        },
+                        {
+                            title: 'Синтаксис объекта',
+                            done: true,
+                        },
+                        {
+                            title: 'Методы объекта и this',
+                            done: true,
+                        },
+                        {
+                            title: 'Операции над объектами',
+                            done: true,
+                        },
+                        {
+                            title: 'Объекты и циклы',
+                            done: true,
+                        },
+                        {
+                            title: 'typeof и система типов',
+                            done: true,
+                        },
+                    ],
                 },
                 {
                     id: uuidv4(),
@@ -2267,7 +2291,7 @@ const initialStateCourses =
 
                         {
                             title: 'Домашняя работа',
-                            done: true,
+                            done: false,
                             githubLink: 'url',
                         },
                     ],
@@ -3382,12 +3406,29 @@ const initialStateCourses =
                 },
                 {
                     id: uuidv4(),
-                    title: 'Знакомство с компонентом Форм (откроется 19.08.2020)',
+                    title: 'Знакомство с компонентом Форм',
                     inProcess: false,
                     done: false,
                     show: false,
-                    lessons: [],
-                    inDevelopment: true,
+                    lessons: [
+                        {
+                            title: 'Подключение, вывод и обработка формы',
+                            done: false,
+                        },
+                        {
+                            title: 'Типы полей и трансформация данных',
+                            done: false,
+                        },
+                        {
+                            title: 'Поля ChoiceType',
+                            done: false,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: false,
+                            githubLink: 'url',
+                        },
+                    ],
                 },
                 {
                     id: uuidv4(),
@@ -3643,12 +3684,32 @@ const initialStateCourses =
                 },
                 {
                     id: uuidv4(),
-                    title: 'Работа с публичным API на примере Reddit (откроется 12.08.2020)',
+                    title: 'Работа с публичным API на примере Reddit',
                     inProcess: false,
                     done: false,
                     show: false,
-                    lessons: [],
-                    inDevelopment: true,
+                    lessons: [
+                        {
+                            title: 'Как работать с API',
+                            done: false,
+                        },
+                        {
+                            title: 'Регистрируем аккаунт разработчика на Reddit',
+                            done: false,
+                        },
+                        {
+                            title: 'OAuth2',
+                            done: false,
+                        },
+                        {
+                            title: 'Авторизация пользователя',
+                            done: false,
+                        },
+                        {
+                            title: 'Как структурировать API запросы',
+                            done: false,
+                        },
+                    ],
                 },
                 {
                     id: uuidv4(),
@@ -3995,12 +4056,25 @@ const initialStateCourses =
                 },
                 {
                     id: uuidv4(),
-                    title: 'Деплой (откроется 17.08.2020)',
+                    title: 'Деплой',
                     inProcess: false,
                     done: false,
                     show: false,
-                    lessons: [],
-                    inDevelopment: true,
+                    lessons: [
+                        {
+                            title: 'Публикация приложения в GitHub Pages',
+                            done: false,
+                        },
+                        {
+                            title: 'Заключительный урок. В каком направлении развиваться дальше',
+                            done: false,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: false,
+                            githubLink: 'url',
+                        },
+                    ],
                 },
             ]
         },
@@ -4211,12 +4285,45 @@ const initialStateCourses =
                 },
                 {
                     id: uuidv4(),
-                    title: 'Базы данных, Реляционные ДБ (откроется 25.08.2020)',
+                    title: 'Базы данных, Реляционные ДБ',
                     inProcess: false,
                     done: false,
                     show: false,
-                    lessons: [],
-                    inDevelopment: true,
+                    lessons: [
+                        {
+                            title: 'Введение',
+                            done: false,
+                        },
+                        {
+                            title: 'Реляционные ДБ на примере PostgreSQL',
+                            done: false,
+                        },
+                        {
+                            title: 'PostgreSQL: подключение и запросы',
+                            done: false,
+                        },
+                        {
+                            title: 'Библиотека Knex',
+                            done: false,
+                        },
+                        {
+                            title: 'PostgreSQL: миграции',
+                            done: false,
+                        },
+                        {
+                            title: 'Авторизация',
+                            done: false,
+                        },
+                        {
+                            title: 'Другие актуальные реляционные БД',
+                            done: false,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: false,
+                            githubLink: 'url',
+                        },
+                    ],
                 },
                 {
                     id: uuidv4(),

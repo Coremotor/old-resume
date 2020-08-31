@@ -16,3 +16,13 @@
 .whatAmStudyingNowList {
     padding: 0 10px 10px;
 }
+
+@media (max-width: 480px) {
+    .whatAmStudyingNowTitle {
+        font-size: 14px;
+    }
+
+    .whatAmStudyingNowList {
+        font-size: 12px;
+    }
+}

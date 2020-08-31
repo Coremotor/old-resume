@@ -10,6 +10,7 @@
     cursor: pointer;
     background-color: #a8763e;
     border: 1px solid #a8763e;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5);
     color: white;
     margin-bottom: 10px;
     padding: 20px;
@@ -25,5 +26,15 @@
 .coursesSectionTitle {
     font-size: 16px;
     width: 100%;
+}
+
+@media (max-width: 480px) {
+    .coursesListTitleWrapper {
+        padding: 10px;
+    }
+
+    .coursesSectionTitle {
+        font-size: 14px;
+    }
 }
 

@@ -10,6 +10,7 @@
     cursor: pointer;
     background-color: #a8763e;
     border: 1px solid #a8763e;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5);
     color: white;
     margin-bottom: 10px;
     padding: 20px;
@@ -41,3 +42,22 @@
 .workExperienceListItemText {
     padding-left: 20px;
 }
+
+@media (max-width: 480px) {
+    .workExperienceTitleWrapper {
+        padding: 10px;
+    }
+
+    .workExperienceTitle {
+        font-size: 14px;
+    }
+
+    .workExperienceListItem h3 {
+        font-size: 12px;
+    }
+
+    .workExperienceListItemText {
+        font-size: 12px;
+    }
+}
+

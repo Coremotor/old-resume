@@ -9,3 +9,9 @@
     text-align: justify;
     padding: 0 10px;
 }
+
+@media (max-width: 480px) {
+    .whatCanISuggestText {
+        font-size: 12px;
+    }
+}

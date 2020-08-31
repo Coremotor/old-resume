@@ -5,14 +5,15 @@
     margin: 0 0 10px;
 }
 
-.coursesListItemTitle {
+.coursesListItemTitleWrapper {
     display: flex;
     align-items: center;
+    border-bottom: 1px solid #a8763e;
     padding: 10px;
     transition: .2s;
 }
 
-.coursesListItemTitle:hover {
+.coursesListItemTitleWrapper:hover {
     background-color: #f7f3e3;
     color: #a8763e;
     transition: .2s;
@@ -20,4 +21,14 @@
 
 .modulesList {
     padding-left: 30px;
+}
+
+@media (max-width: 480px) {
+    .coursesListItemTitleWrapper {
+        font-size: 12px;
+    }
+
+    .coursesListItemTitle {
+        font-size: 12px;
+    }
 }

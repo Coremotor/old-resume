@@ -19,14 +19,22 @@
     transition: .2s;
 }
 
-.lessonsList {
-
-}
-
 .lessonsListItem {
     display: flex;
     align-items: center;
     padding: 0 10px 0 30px;
     background-color: #f7f3e3;
     cursor: auto;
+}
+
+@media (max-width: 480px) {
+    .modulesListItemTitle {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .lessonsListItem {
+        font-size: 12px;
+        padding: 0 5px 0 20px;
+    }
 }

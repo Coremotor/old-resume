@@ -1,5 +1,7 @@
 .photoSection {
     position: relative;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
     cursor: pointer;
     height: 300px;
     width: 300px;
@@ -10,10 +12,19 @@
     border-radius: 50%;
 }
 
+.photoSectionImg:focus {
+    outline: none;
+}
+
 .photoSectionCount {
     position: absolute;
-    top: 90%;
-    left: 92%;
+    top: 88%;
+    left: 42%;
+
+    font-size: 12px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 20%;
 }
 
 @media (max-width: 750px) {
@@ -21,3 +32,7 @@
         margin-left: 0;
     }
 }
+
+
+
+

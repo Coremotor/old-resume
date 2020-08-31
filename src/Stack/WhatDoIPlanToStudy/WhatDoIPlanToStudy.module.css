@@ -16,3 +16,13 @@
 .whatDoIPlanToStudyList {
     padding: 0 10px 10px;
 }
+
+@media (max-width: 480px) {
+    .whatDoIPlanToStudyTitle {
+        font-size: 14px;
+    }
+
+    .whatDoIPlanToStudyList {
+        font-size: 12px;
+    }
+}
