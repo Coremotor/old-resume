@@ -20,10 +20,16 @@ const Education = () => {
 
             {
                 educationShow.educationShow &&
-                <ul className={styles.educationList}>
+                <ul>
+                    <li className={styles.educationListItem}>
+                        <h3>Online-университет Skillbox.</h3>
+                        <p className={styles.educationListItemText}>Год поступления: 2019</p>
+                        <p className={styles.educationListItemText}>Специализация: Профессия Web-Разработчик.</p>
+                    </li>
+
                     <li className={styles.educationListItem}>
                         <h3>Марийский государственный технический университет</h3>
-                        <p className={styles.educationListItemText}>Год оступления: 2002</p>
+                        <p className={styles.educationListItemText}>Год поступления: 2002</p>
                         <p className={styles.educationListItemText}>Год окончания: 2007</p>
                         <p className={styles.educationListItemText}>Академическая степень: инженер</p>
                         <p className={styles.educationListItemText}>Факультет: лесопромышленный</p>
@@ -33,7 +39,7 @@ const Education = () => {
 
                     <li className={styles.educationListItem}>
                         <h3>Поволжский государственный технический университет</h3>
-                        <p className={styles.educationListItemText}>Год оступления: 2010</p>
+                        <p className={styles.educationListItemText}>Год поступления: 2010</p>
                         <p className={styles.educationListItemText}>Год окончания: 2013</p>
                         <p className={styles.educationListItemText}>Академическая степень: магистр</p>
                         <p className={styles.educationListItemText}>Факультет: экономический</p>

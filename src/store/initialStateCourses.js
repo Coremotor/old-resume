@@ -1481,8 +1481,8 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Введение',
-                    inProcess: true,
-                    done: false,
+                    inProcess: false,
+                    done: true,
                     show: false,
                     lessons: [
                         {
@@ -1501,18 +1501,13 @@ const initialStateCourses =
                             title: 'Первый проект',
                             done: true,
                         },
-                        {
-                            title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
-                        },
                     ],
                 },
                 {
                     id: uuidv4(),
                     title: 'Переменные и работа с числами',
-                    inProcess: true,
-                    done: false,
+                    inProcess: false,
+                    done: true,
                     show: false,
                     lessons: [
                         {
@@ -1545,16 +1540,16 @@ const initialStateCourses =
                         },
                         {
                             title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
+                            done: true,
+                            githubLink: 'https://github.com/Coremotor/course-javascript-developer-2020/tree/master/module_2',
                         },
                     ],
                 },
                 {
                     id: uuidv4(),
                     title: 'Строки, boolean и условные операторы',
-                    inProcess: true,
-                    done: false,
+                    inProcess: false,
+                    done: true,
                     show: false,
                     lessons: [
                         {
@@ -1591,16 +1586,16 @@ const initialStateCourses =
                         },
                         {
                             title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
+                            done: true,
+                            githubLink: 'https://github.com/Coremotor/course-javascript-developer-2020/tree/master/module_3',
                         },
                     ],
                 },
                 {
                     id: uuidv4(),
                     title: 'Массивы и циклы',
-                    inProcess: true,
-                    done: false,
+                    inProcess: false,
+                    done: true,
                     show: false,
                     lessons: [
                         {
@@ -1633,16 +1628,16 @@ const initialStateCourses =
                         },
                         {
                             title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
+                            done: true,
+                            githubLink: 'https://github.com/Coremotor/course-javascript-developer-2020/tree/master/module_4',
                         },
                     ],
                 },
                 {
                     id: uuidv4(),
                     title: 'Функции',
-                    inProcess: true,
-                    done: false,
+                    inProcess: false,
+                    done: true,
                     show: false,
                     lessons: [
                         {
@@ -1671,16 +1666,16 @@ const initialStateCourses =
                         },
                         {
                             title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
+                            done: true,
+                            githubLink: 'https://github.com/Coremotor/course-javascript-developer-2020/tree/master/module_5',
                         },
                     ],
                 },
                 {
                     id: uuidv4(),
                     title: 'Объекты',
-                    inProcess: true,
-                    done: false,
+                    inProcess: false,
+                    done: true,
                     show: false,
                     lessons: [
                         {

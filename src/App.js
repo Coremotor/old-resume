@@ -16,7 +16,7 @@ function App() {
         <Fragment>
             <div className={styles.textWrapper}>
                 <small className={styles.text}>App create on React Redux</small>
-                <small className={styles.text}>version 0.1.0-&alpha;</small>
+                <small className={styles.text}>version 0.1.1-&alpha;</small>
             </div>
             <Header/>
             <WhatCanISuggest/>

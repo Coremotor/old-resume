@@ -4,9 +4,9 @@ import styles from './Photo.module.css';
 const Photo = () => {
 
     const photoLinkArr = [
-        'http://coremotor.ru/img/11.png',
-        'http://coremotor.ru/img/22.png',
-        'http://coremotor.ru/img/33.png',
+        'https://coremotor.ru/img/11.png',
+        'https://coremotor.ru/img/22.png',
+        'https://coremotor.ru/img/33.png',
     ]
 
     const [count, setCount] = useState(0);
