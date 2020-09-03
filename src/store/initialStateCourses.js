@@ -2722,7 +2722,7 @@ const initialStateCourses =
         git: {
             id: 'git',
             title: 'Система контроля версий Git',
-            done: false,
+            done: true,
             inProcess: false,
             finalWork: false,
             finalWorkGithubUrl: 'url',
@@ -2733,48 +2733,48 @@ const initialStateCourses =
                     id: uuidv4(),
                     title: 'Система контроля версий Git',
                     inProcess: false,
-                    done: false,
+                    done: true,
                     show: true,
                     lessons: [
                         {
                             title: 'Версии программного кода',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Установка Git',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Индекс и частичные коммиты',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Сравнение версий',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Отмена изменений и откат версий',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Репозитории и коллективная работа',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Ветки: создание и управление',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Слияние и разрешение конфликтов',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Полезные инструменты',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Правила работы с Git',
-                            done: false,
+                            done: true,
                         },
                     ],
                 },
@@ -4087,20 +4087,20 @@ const initialStateCourses =
                     id: uuidv4(),
                     title: 'Введение',
                     inProcess: false,
-                    done: true,
+                    done: false,
                     show: false,
                     lessons: [
                         {
                             title: 'Промо-ролик. Краткое описание курса. Минимальные требования',
-                            done: true,
+                            done: false,
                         },
                         {
                             title: 'Контекст: краткая история JavaScript',
-                            done: true,
+                            done: false,
                         },
                         {
                             title: 'Контекст: краткая история и особенности Node.js',
-                            done: true,
+                            done: false,
                         },
                     ],
                 },
@@ -4108,28 +4108,28 @@ const initialStateCourses =
                     id: uuidv4(),
                     title: 'Подготовка рабочей среды',
                     inProcess: false,
-                    done: true,
+                    done: false,
                     show: false,
                     lessons: [
                         {
                             title: 'Интро',
-                            done: true,
+                            done: false,
                         },
                         {
                             title: 'Подготовка рабочей среды',
-                            done: true,
+                            done: false,
                         },
                         {
                             title: 'Node.js и npm',
-                            done: true,
+                            done: false,
                         },
                         {
                             title: 'Система контроля версий git',
-                            done: true,
+                            done: false,
                         },
                         {
                             title: 'Базовый редактор: VSCode',
-                            done: true,
+                            done: false,
                         },
                         {
                             title: 'Домашняя работа',
@@ -4142,16 +4142,16 @@ const initialStateCourses =
                     id: uuidv4(),
                     title: 'Hello, world!',
                     inProcess: false,
-                    done: true,
+                    done: false,
                     show: false,
                     lessons: [
                         {
                             title: 'Введение',
-                            done: true,
+                            done: false,
                         },
                         {
                             title: 'Первая Node.js программа',
-                            done: true,
+                            done: false,
                         },
                         {
                             title: 'Package.json и semver',
@@ -4159,7 +4159,7 @@ const initialStateCourses =
                         },
                         {
                             title: 'Шаблон проекта',
-                            done: true,
+                            done: false,
                         },
                         {
                             title: 'Домашняя работа',
