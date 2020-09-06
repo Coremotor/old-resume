@@ -677,12 +677,45 @@ const initialStateCourses =
                 },
                 {
                     id: uuidv4(),
-                    title: 'Доступность (откроется 03.09.2020)',
-                    inProcess: false,
+                    title: 'Доступность',
+                    inProcess: true,
                     done: false,
                     show: false,
-                    lessons: [],
-                    inDevelopment: true,
+                    lessons: [
+                        {
+                            title: 'Интро',
+                            done: true,
+                        },
+                        {
+                            title: 'Понятие доступности',
+                            done: true,
+                        },
+                        {
+                            title: 'Проверка доступности. Клавиатура',
+                            done: true,
+                        },
+                        {
+                            title: 'Проверка доступности. Скринридер',
+                            done: true,
+                        },
+                        {
+                            title: 'Влияние семантики на доступность',
+                            done: true,
+                        },
+                        {
+                            title: 'ARIA',
+                            done: true,
+                        },
+                        {
+                            title: 'Аутро',
+                            done: true,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: false,
+                            githubLink: 'url',
+                        },
+                    ],
                 },
                 {
                     id: uuidv4(),
@@ -1841,1646 +1874,6 @@ const initialStateCourses =
                 },
             ]
         },
-        phpDeveloperChapterOne: {
-            id: 'phpDeveloperChapterOne',
-            title: 'PHP-разработчик с нуля до PRO. Часть 1',
-            done: false,
-            inProcess: true,
-            finalWork: false,
-            finalWorkGithubUrl: 'url',
-            comments: [],
-            show: false,
-            body: [
-                {
-                    id: uuidv4(),
-                    title: 'Введение в программирование',
-                    inProcess: false,
-                    done: true,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Вводная лекция ко всему курсу',
-                            done: true,
-                        },
-                        {
-                            title: 'Вводная лекция. Курс 1',
-                            done: true,
-                        },
-                        {
-                            title: 'Что такое программирование',
-                            done: true,
-                        },
-                        {
-                            title: 'Веб-сервер установка, настройки',
-                            done: true,
-                        },
-                        {
-                            title: 'Установка XAMPP на MacOS',
-                            done: true,
-                        },
-                        {
-                            title: 'Установка XAMPP на Linux',
-                            done: true,
-                        },
-                        {
-                            title: 'Настройка XAMPP на MacOS и Linux',
-                            done: true,
-                        },
-                        {
-                            title: 'Создание сайта в OS панели',
-                            done: true,
-                        },
-                        {
-                            title: 'Синтаксис PHP и редакторы кода',
-                            done: true,
-                        },
-                        {
-                            title: 'Практика — создание и использование переменных',
-                            done: true,
-                        },
-                        {
-                            title: 'Структура файлов на сервере и их соответствие url в строке браузера',
-                            done: true,
-                        },
-                        {
-                            title: 'HTML и CSS для php программиста',
-                            done: true,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: true,
-                            githubLink: 'https://github.com/Coremotor/course-php-developer-2020/tree/master/php-module-1',
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Структура управления данными. Базовые концепции PHP 7',
-                    inProcess: false,
-                    done: true,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Приветственное видео',
-                            done: true,
-                        },
-                        {
-                            title: 'Массивы в PHP',
-                            done: true,
-                        },
-                        {
-                            title: 'Практика — работаем с массивами',
-                            done: true,
-                        },
-                        {
-                            title: 'Встроенные (магические) константы, суперглобальные массивы',
-                            done: true,
-                        },
-                        {
-                            title: 'Выражения, операторы',
-                            done: true,
-                        },
-                        {
-                            title: 'Управляющие конструкции, циклы, приведение типов',
-                            done: true,
-                        },
-                        {
-                            title: 'Практика — работаем с управляющими конструкциями и операциями',
-                            done: true,
-                        },
-                        {
-                            title: 'Функции для ежедневной работы, подключение файлов, пример',
-                            done: true,
-                        },
-                        {
-                            title: 'Написание алгоритмов, разбор типовых алгоритмов',
-                            done: true,
-                        },
-                        {
-                            title: 'Практика — работа с алгоритмами',
-                            done: true,
-                        },
-                        {
-                            title: 'Стили и стандарты оформления кода — psr-1 и psr-12, грамотное именование переменных',
-                            done: true,
-                        },
-                        {
-                            title: 'Терминология и типовые ошибки',
-                            done: true,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: true,
-                            githubLink: 'https://github.com/Coremotor/course-php-developer-2020/tree/master/php-module-2',
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Протокол HTTP/HTTPS',
-                    inProcess: false,
-                    done: true,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Переходим к следующему модулю',
-                            done: true,
-                        },
-                        {
-                            title: 'Протокол HTTP/HTTPS',
-                            done: true,
-                        },
-                        {
-                            title: 'Пример работы с GET и POST данным',
-                            done: true,
-                        },
-                        {
-                            title: 'Пример интеграции верстки',
-                            done: true,
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Пользовательские функции',
-                    inProcess: false,
-                    done: true,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Интро',
-                            done: true,
-                        },
-                        {
-                            title: 'Пользовательские функции. Часть 1',
-                            done: true,
-                        },
-                        {
-                            title: 'Пользовательские функции. Часть 2',
-                            done: true,
-                        },
-                        {
-                            title: 'Пользовательские функции. Часть 3',
-                            done: true,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: true,
-                            githubLink: 'https://github.com/Coremotor/course-php-developer-2020/tree/master/task.manager',
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Файлы и каталоги',
-                    inProcess: false,
-                    done: true,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Файлы. Права доступа. Режимы работы',
-                            done: true,
-                        },
-                        {
-                            title: 'Функции по работе с файлами и каталогами',
-                            done: true,
-                        },
-                        {
-                            title: 'Загрузка файлов на сервер',
-                            done: true,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: true,
-                            githubLink: 'https://github.com/Coremotor/course-php-developer-2020/tree/master/picture.gallery',
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Cookie/Session',
-                    inProcess: false,
-                    done: true,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Cookie',
-                            done: true,
-                        },
-                        {
-                            title: 'Session',
-                            done: true,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: true,
-                            githubLink: 'https://github.com/Coremotor/course-php-developer-2020/tree/master/task.manager',
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'База данных MySQL',
-                    inProcess: true,
-                    done: false,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Последний модуль. Осталось чуть-чуть!',
-                            done: false,
-                        },
-                        {
-                            title: 'Интро',
-                            done: false,
-                        },
-                        {
-                            title: 'Общие сведения о БД',
-                            done: false,
-                        },
-                        {
-                            title: 'Методы работы с БД',
-                            done: false,
-                        },
-                        {
-                            title: 'Основные операции для работы с таблицами',
-                            done: false,
-                        },
-                        {
-                            title: 'Синтаксис базовых запросов',
-                            done: false,
-                        },
-                        {
-                            title: 'Объединение данных из нескольких таблиц',
-                            done: false,
-                        },
-                        {
-                            title: 'Подготовленные запросы',
-                            done: false,
-                        },
-                        {
-                            title: 'Экспорт и импорт БД',
-                            done: false,
-                        },
-                        {
-                            title: 'Архитектура построения структуры таблиц БД',
-                            done: false,
-                        },
-                        {
-                            title: 'Реляционная база данных (нормальные формы). Часть 1',
-                            done: false,
-                        },
-                        {
-                            title: 'Реляционная база данных (нормальные формы). Часть 2',
-                            done: false,
-                        },
-                        {
-                            title: 'Стандарты и Стили оформления в БД, Примеры работы',
-                            done: false,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
-                        },
-                    ],
-                },
-            ]
-        },
-        phpDeveloperChapterTwo: {
-            id: 'phpDeveloperChapterTwo',
-            title: 'PHP-разработчик с нуля до PRO. Часть 2',
-            done: false,
-            inProcess: true,
-            finalWork: false,
-            finalWorkGithubUrl: 'url',
-            comments: [],
-            show: false,
-            body: [
-                {
-                    id: uuidv4(),
-                    title: 'Объекты (базовые понятия)',
-                    inProcess: false,
-                    done: true,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Вводная лекция Курс 2',
-                            done: true,
-                        },
-                        {
-                            title: 'Основные понятия ООП',
-                            done: true,
-                        },
-                        {
-                            title: 'Составляющие класса',
-                            done: true,
-                        },
-                        {
-                            title: 'Стандарты и стили оформления в ООП, psr-1 и psr-12',
-                            done: true,
-                        },
-                        {
-                            title: 'Пространства имен, указатель $this, constructor, destructor',
-                            done: true,
-                        },
-                        {
-                            title: 'Стандарты и стили оформления в ООП, psr-1 и psr-2',
-                            done: true,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: true,
-                            githubLink: 'https://github.com/Coremotor/course-php-developer-2020/tree/master/oop-module-1',
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Принципы',
-                    inProcess: false,
-                    done: true,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Абстракция и инкапсуляция',
-                            done: true,
-                        },
-                        {
-                            title: 'Наследование и указатели (parent, self)',
-                            done: true,
-                        },
-                        {
-                            title: 'Полиморфизм',
-                            done: true,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: true,
-                            githubLink: 'https://github.com/Coremotor/course-php-developer-2020/tree/master/oop-module-2',
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Объекты (расширенные понятия)',
-                    inProcess: true,
-                    done: false,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Статические свойства и методы',
-                            done: true,
-                        },
-                        {
-                            title: 'Абстрактные классы и методы',
-                            done: true,
-                        },
-                        {
-                            title: 'Финальные классы и методы',
-                            done: true,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: true, //не полностью
-                            githubLink: 'https://github.com/Coremotor/course-php-developer-2020/tree/master/oop-module-3',
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Функции и стандарты по работе с классами',
-                    inProcess: true,
-                    done: false,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Функции по работе с классами и объектами',
-                            done: true,
-                        },
-                        {
-                            title: 'Подгрузка классов. Стандарт PSR-0 и PSR-4',
-                            done: true,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Исключения и другие встроенные классы',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Исключения',
-                            done: true,
-                        },
-                        {
-                            title: 'Замыкания. Встроенные интерфейсы. Анонимные классы',
-                            done: true,
-                        },
-
-                        {
-                            title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'ООП. Шаблоны',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Архитектура и принципы проектирования',
-                            done: false,
-                        },
-                        {
-                            title: 'Порождающие шаблоны проектирования',
-                            done: false,
-                        },
-                        {
-                            title: 'Структурные паттерны',
-                            done: false,
-                        },
-                        {
-                            title: 'Поведенческие шаблоны',
-                            done: false,
-                        },
-                        {
-                            title: 'Другие поведенческие шаблоны',
-                            done: false,
-                        },
-                        {
-                            title: 'Базовые и объектно-реляционные паттерны',
-                            done: false,
-                        },
-                        {
-                            title: 'Паттерны представления бизнес-логики и слой представления данных',
-                            done: false,
-                        },
-                        {
-                            title: 'Антипаттерны',
-                            done: false,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
-                        },
-                    ],
-                },
-            ]
-        },
-        phpDeveloperChapterThree: {
-            id: 'phpDeveloperChapterThree',
-            title: 'PHP-разработчик с нуля до PRO. Часть 3',
-            done: false,
-            inProcess: false,
-            finalWork: false,
-            finalWorkGithubUrl: 'url',
-            comments: [],
-            show: false,
-            body: [
-                {
-                    id: uuidv4(),
-                    title: 'Подготовка среды обучения. Ручной режим',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Вводная лекция Курс 3',
-                            done: false,
-                        },
-                        {
-                            title: 'VirtualBox установка и настройка',
-                            done: false,
-                        },
-                        {
-                            title: 'Приемы работы в Linux и консоли',
-                            done: false,
-                        },
-                        {
-                            title: 'Nginx. Установка и настройка',
-                            done: false,
-                        },
-                        {
-                            title: 'Установка и настройка PHP и MySQL',
-                            done: false,
-                        },
-                        {
-                            title: 'Менеджер зависимостей — Composer',
-                            done: false,
-                        },
-                        {
-                            title: 'Установка Laravel, конфигурирование серверов',
-                            done: false,
-                        },
-                        {
-                            title: 'Знакомство и настройка PhpStorm',
-                            done: false,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Архитектура и проектирование',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Архитектура и проектирование',
-                            done: false,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Структура проекта Laravel',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Структура проекта Laravel',
-                            done: false,
-                        },
-                        {
-                            title: 'Простейшая маршрутизация, миграция и отображение данных',
-                            done: false,
-                        },
-                        {
-                            title: 'Eloquent ORM',
-                            done: false,
-                        },
-                        {
-                            title: 'Контроллеры и шаблонизатор Blade',
-                            done: false,
-                        },
-                        {
-                            title: 'Формы, запросы форм и CSRF',
-                            done: false,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'GIT и командная разработка',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Системы контроля версий, знакомство с git',
-                            done: false,
-                        },
-                        {
-                            title: 'Основы работы с git',
-                            done: false,
-                        },
-                        {
-                            title: 'Работа с удаленными репозиториями',
-                            done: false,
-                        },
-                        {
-                            title: 'Работа с ветками',
-                            done: false,
-                        },
-                        {
-                            title: 'Другие инструменты git',
-                            done: false,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Laravel — начинающий уровень',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Модели — ресурсы',
-                            done: false,
-                        },
-                        {
-                            title: 'Работа со Связями в Eloquent. Часть 1',
-                            done: false,
-                        },
-                        {
-                            title: 'Работа со Связями в Eloquent. Часть 2',
-                            done: false,
-                        },
-                        {
-                            title: 'Базовые концепции в Laravel. Часть 1',
-                            done: false,
-                        },
-                        {
-                            title: 'Базовые концепции в Laravel. Часть 2',
-                            done: false,
-                        },
-                        {
-                            title: 'Авторизация и Регистрация',
-                            done: false,
-                        },
-                        {
-                            title: 'Почта, Уведомления, События и Сессия',
-                            done: false,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Laravel — продвинутый уровень',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Коллекции',
-                            done: false,
-                        },
-                        {
-                            title: 'Работа с frontend',
-                            done: false,
-                        },
-                        {
-                            title: 'Консольные команды, Cron и запуск команд по расписанию в Laravel',
-                            done: false,
-                        },
-                        {
-                            title: 'Шаблонизатор Blade',
-                            done: false,
-                        },
-                        {
-                            title: 'Seeds Factories',
-                            done: false,
-                        },
-                        {
-                            title: 'Основы автотестирования',
-                            done: false,
-                        },
-                        {
-                            title: 'Интеграция с внешним сервисом pushall',
-                            done: false,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Eloquent ORM и База данных',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Eloquent ORM',
-                            done: false,
-                        },
-                        {
-                            title: 'QueryBuilder',
-                            done: false,
-                        },
-                        {
-                            title: 'Постраничная навигация',
-                            done: false,
-                        },
-                        {
-                            title: 'Миграции',
-                            done: false,
-                        },
-                        {
-                            title: 'Полиморфная связь и связь сквозь объект',
-                            done: false,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Laravel — очереди и WebSocket',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Очереди в Laravel и Работы — jobs',
-                            done: false,
-                        },
-                        {
-                            title: 'Менеджер процессов Supervisord',
-                            done: false,
-                        },
-                        {
-                            title: 'Установка Redis',
-                            done: false,
-                        },
-                        {
-                            title: 'Инструмент мониторинга laravel/horizon',
-                            done: false,
-                        },
-                        {
-                            title: 'WebSocket и вещание в laravel',
-                            done: false,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Laravel — кеширование и оптимизация',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Кеширование',
-                            done: false,
-                        },
-                        {
-                            title: 'Профилирование кода',
-                            done: false,
-                        },
-                        {
-                            title: 'Рефакторинг',
-                            done: false,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Бонус-модуль. Введение в Symfony',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Введение и установка Symfony',
-                            done: false,
-                        },
-                        {
-                            title: 'Структура проекта и настройка PhpStorm',
-                            done: false,
-                        },
-                        {
-                            title: 'Создание первых страниц, Маршрутизация и Контроллеры',
-                            done: false,
-                        },
-                        {
-                            title: 'Flex и Recipes',
-                            done: false,
-                        },
-                        {
-                            title: 'Шаблонизатор Twig',
-                            done: false,
-                        },
-                        {
-                            title: 'Debug Profiler и другие инструменты отладки',
-                            done: false,
-                        },
-                        {
-                            title: 'Подключаемые файлы: Css и Js',
-                            done: false,
-                        },
-                        {
-                            title: 'Генерация URL',
-                            done: false,
-                        },
-                        {
-                            title: 'Создание Json-API',
-                            done: false,
-                        },
-                        {
-                            title: 'Сервисы и Autowiring',
-                            done: false,
-                        },
-                        {
-                            title: 'Webpack Encore',
-                            done: false,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
-                        },
-                    ],
-                },
-            ]
-        },
-        git: {
-            id: 'git',
-            title: 'Система контроля версий Git',
-            done: true,
-            inProcess: false,
-            finalWork: false,
-            finalWorkGithubUrl: 'url',
-            comments: [],
-            show: false,
-            body: [
-                {
-                    id: uuidv4(),
-                    title: 'Система контроля версий Git',
-                    inProcess: false,
-                    done: true,
-                    show: true,
-                    lessons: [
-                        {
-                            title: 'Версии программного кода',
-                            done: true,
-                        },
-                        {
-                            title: 'Установка Git',
-                            done: true,
-                        },
-                        {
-                            title: 'Индекс и частичные коммиты',
-                            done: true,
-                        },
-                        {
-                            title: 'Сравнение версий',
-                            done: true,
-                        },
-                        {
-                            title: 'Отмена изменений и откат версий',
-                            done: true,
-                        },
-                        {
-                            title: 'Репозитории и коллективная работа',
-                            done: true,
-                        },
-                        {
-                            title: 'Ветки: создание и управление',
-                            done: true,
-                        },
-                        {
-                            title: 'Слияние и разрешение конфликтов',
-                            done: true,
-                        },
-                        {
-                            title: 'Полезные инструменты',
-                            done: true,
-                        },
-                        {
-                            title: 'Правила работы с Git',
-                            done: true,
-                        },
-                    ],
-                },
-            ]
-        },
-        bitrix1C: {
-            id: 'bitrix1C',
-            title: 'Программист 1С-Битрикс',
-            done: false,
-            inProcess: false,
-            finalWork: false,
-            finalWorkGithubUrl: 'url',
-            comments: [],
-            show: false,
-            body: [
-                {
-                    id: uuidv4(),
-                    title: 'Философия разработки, подготовка рабочего места',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Философия разработчика',
-                            done: false,
-                        },
-                        {
-                            title: 'Подготовка рабочего места',
-                            done: false,
-                        },
-                        {
-                            title: 'Настройка phpStorm',
-                            done: false,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Источник товаров и контента',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Что такое инфоблок и как он работает',
-                            done: false,
-                        },
-                        {
-                            title: 'Различие между элементом и товаром каталога',
-                            done: false,
-                        },
-                        {
-                            title: 'Стандартные классы для работы с инфоблоком',
-                            done: false,
-                        },
-                        {
-                            title: 'Обмен с "1С". Soap. Домашнее задание',
-                            done: false,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Интеграция с 1С-Битрикс и другими системами',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Структура кода в Битрикс',
-                            done: false,
-                        },
-                        {
-                            title: 'Организация init.php, dbconn и settings',
-                            done: false,
-                        },
-                        {
-                            title: 'Работа с файлами XML. Пример работы с SOAP на примере сервиса погоды',
-                            done: false,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Создание страниц и шаблонов',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Создание страниц и шаблонов, часть 1',
-                            done: false,
-                        },
-                        {
-                            title: 'Создание страниц и шаблонов, часть 2',
-                            done: false,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Стандартные компоненты',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Стандартные компоненты, часть 1',
-                            done: false,
-                        },
-                        {
-                            title: 'Стандартные компоненты, часть 2',
-                            done: false,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Каталог интернет магазина',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Каталог интернет-магазина: часть 1',
-                            done: false,
-                        },
-                        {
-                            title: 'Каталог интернет-магазина: часть 2',
-                            done: false,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Карта товара',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Карта товара: часть 1',
-                            done: false,
-                        },
-                        {
-                            title: 'Карта товара: часть 2',
-                            done: false,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Оформление заказа',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Оформление заказа, часть 1',
-                            done: false,
-                        },
-                        {
-                            title: 'Оформление заказа, часть 2',
-                            done: false,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Личный кабинет',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Личный кабинет: урок 1',
-                            done: false,
-                        },
-                        {
-                            title: 'Личный кабинет: урок 2',
-                            done: false,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Дорабатываем сайт, ч.1',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Дорабатываем сайт, ч.1',
-                            done: false,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Дорабатываем сайт, ч.2',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Дорабатываем сайт, ч.1',
-                            done: false,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Бонусный материал: ответы на часто задаваемые вопросы',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Бонусный материал: ответы на часто задаваемые вопросы',
-                            done: false,
-                        },
-                    ],
-                },
-            ]
-        },
-        symfony: {
-            id: 'symfony',
-            title: 'PHP-фреймворк Symfony',
-            done: false,
-            inProcess: false,
-            finalWork: false,
-            finalWorkGithubUrl: 'url',
-            comments: [],
-            show: false,
-            body: [
-                {
-                    id: uuidv4(),
-                    title: 'Введение в Symfony',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Введение и Установка Symfony',
-                            done: false,
-                        },
-                        {
-                            title: 'Структура проекта и настройка PhpStorm',
-                            done: false,
-                        },
-                        {
-                            title: 'Создание первых страниц, маршрутизация и контроллеры',
-                            done: false,
-                        },
-                        {
-                            title: 'Flex и Recipes',
-                            done: false,
-                        },
-                        {
-                            title: 'Шаблонизатор Twig',
-                            done: false,
-                        },
-                        {
-                            title: 'Debug Profiler и другие инструменты отладки',
-                            done: false,
-                        },
-                        {
-                            title: 'Подключаемые файлы: CSS и Js',
-                            done: false,
-                        },
-                        {
-                            title: 'Генерация URL',
-                            done: false,
-                        },
-                        {
-                            title: 'Создание Json-API',
-                            done: false,
-                        },
-                        {
-                            title: 'Сервисы и Autowiring',
-                            done: false,
-                        },
-                        {
-                            title: 'Webpack Encore',
-                            done: false,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Основы Symfony',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Основы Autowiring и конфигурирования',
-                            done: false,
-                        },
-                        {
-                            title: 'Конфигурации для разного окружения, файл.env',
-                            done: false,
-                        },
-                        {
-                            title: 'Создание своего сервиса',
-                            done: false,
-                        },
-                        {
-                            title: 'Продвинутое конфигурирование, service.yaml',
-                            done: false,
-                        },
-                        {
-                            title: 'Пример интеграции с сервисом Slack',
-                            done: false,
-                        },
-                        {
-                            title: 'Автовызов методов сервиса, аннотация @required',
-                            done: false,
-                        },
-                        {
-                            title: 'Генерация кода: symfony/maker-bundle',
-                            done: false,
-                        },
-                        {
-                            title: 'Пример создания консольной команды',
-                            done: false,
-                        },
-                        {
-                            title: 'Безопасное хранение секретных конфигураций, Vault',
-                            done: false,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Шаблонизатор Twig',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Работа с блоками Twig',
-                            done: false,
-                        },
-                        {
-                            title: 'Расширения шаблонизатора Twig',
-                            done: false,
-                        },
-                        {
-                            title: 'LazyLoad в расширениях',
-                            done: false,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Библиотека работы с базой данных Doctrine Orm',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Знакомство с Doctrine и миграциями',
-                            done: false,
-                        },
-                        {
-                            title: 'Entity Repositories и Query Builder',
-                            done: false,
-                        },
-                        {
-                            title: 'Обновление Entity',
-                            done: false,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Фикстуры и расширения Doctrine',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Фикстуры и демоданные',
-                            done: false,
-                        },
-                        {
-                            title: 'Расширение возможностей, Sluggable и Timestampable',
-                            done: false,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Связи в Doctrine. Часть 1 — Один ко многим',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Связь один ко многим (One-to-Many)',
-                            done: false,
-                        },
-                        {
-                            title: 'Получение связанных объектов с дополнительными критериями',
-                            done: false,
-                        },
-                        {
-                            title: 'Сложная логика и Join',
-                            done: false,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Связи в Doctrine. Часть 2',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Фикстуры 2.0',
-                            done: false,
-                        },
-                        {
-                            title: 'Постраничная навигация',
-                            done: false,
-                        },
-                        {
-                            title: 'Связь Многие-ко-многим',
-                            done: false,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Система аутентификации',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Создание модели пользователя',
-                            done: false,
-                        },
-                        {
-                            title: 'Форма авторизации',
-                            done: false,
-                        },
-                        {
-                            title: 'Базовый процесс Аутентификации',
-                            done: false,
-                        },
-                        {
-                            title: 'Безопасность и улучшение Аутентификатора',
-                            done: false,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Роли и уровни доступов и безопасность',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Роли и доступы к страницам',
-                            done: false,
-                        },
-                        {
-                            title: 'Получение авторизованного пользователя',
-                            done: false,
-                        },
-                        {
-                            title: 'Иерархия ролей и Имперсонализация',
-                            done: false,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Доступы по API',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Создание токена и API маршрута',
-                            done: false,
-                        },
-                        {
-                            title: 'Создание Аутентификатора для API',
-                            done: false,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Регистрация и классы Voter',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Регистрация и программная авторизация',
-                            done: false,
-                        },
-                        {
-                            title: 'Расширенное управление доступом, классы Voter',
-                            done: false,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Знакомство с компонентом Форм',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [
-                        {
-                            title: 'Подключение, вывод и обработка формы',
-                            done: false,
-                        },
-                        {
-                            title: 'Типы полей и трансформация данных',
-                            done: false,
-                        },
-                        {
-                            title: 'Поля ChoiceType',
-                            done: false,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Валидация вывод и обработка формы (откроется 02.09.2020)',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [],
-                    inDevelopment: true,
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Расширение полей и кастомная валидация (откроется 16.09.2020)',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [],
-                    inDevelopment: true,
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Загрузка файлов в Symfony (откроется 30.09.2020)',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [],
-                    inDevelopment: true,
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Сервис отправки электронных писем (откроется 14.10.2020)',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [],
-                    inDevelopment: true,
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Система Событий (откроется 28.10.2020)',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [],
-                    inDevelopment: true,
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Выделение переиспользуемых бандлов для Symfony (откроется 11.11.2020)',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [],
-                    inDevelopment: true,
-                },
-            ]
-        },
         reactjs: {
             id: 'reactjs',
             title: 'JavaScript-фреймворк React.js',
@@ -4368,6 +2761,1646 @@ const initialStateCourses =
                 {
                     id: uuidv4(),
                     title: 'Информация о дипломном проекте (откроется 07.12.2020)',
+                    inProcess: false,
+                    done: false,
+                    show: false,
+                    lessons: [],
+                    inDevelopment: true,
+                },
+            ]
+        },
+        git: {
+            id: 'git',
+            title: 'Система контроля версий Git',
+            done: true,
+            inProcess: false,
+            finalWork: false,
+            finalWorkGithubUrl: 'url',
+            comments: [],
+            show: false,
+            body: [
+                {
+                    id: uuidv4(),
+                    title: 'Система контроля версий Git',
+                    inProcess: false,
+                    done: true,
+                    show: true,
+                    lessons: [
+                        {
+                            title: 'Версии программного кода',
+                            done: true,
+                        },
+                        {
+                            title: 'Установка Git',
+                            done: true,
+                        },
+                        {
+                            title: 'Индекс и частичные коммиты',
+                            done: true,
+                        },
+                        {
+                            title: 'Сравнение версий',
+                            done: true,
+                        },
+                        {
+                            title: 'Отмена изменений и откат версий',
+                            done: true,
+                        },
+                        {
+                            title: 'Репозитории и коллективная работа',
+                            done: true,
+                        },
+                        {
+                            title: 'Ветки: создание и управление',
+                            done: true,
+                        },
+                        {
+                            title: 'Слияние и разрешение конфликтов',
+                            done: true,
+                        },
+                        {
+                            title: 'Полезные инструменты',
+                            done: true,
+                        },
+                        {
+                            title: 'Правила работы с Git',
+                            done: true,
+                        },
+                    ],
+                },
+            ]
+        },
+        phpDeveloperChapterOne: {
+            id: 'phpDeveloperChapterOne',
+            title: 'PHP-разработчик с нуля до PRO. Часть 1',
+            done: false,
+            inProcess: true,
+            finalWork: false,
+            finalWorkGithubUrl: 'url',
+            comments: [],
+            show: false,
+            body: [
+                {
+                    id: uuidv4(),
+                    title: 'Введение в программирование',
+                    inProcess: false,
+                    done: true,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Вводная лекция ко всему курсу',
+                            done: true,
+                        },
+                        {
+                            title: 'Вводная лекция. Курс 1',
+                            done: true,
+                        },
+                        {
+                            title: 'Что такое программирование',
+                            done: true,
+                        },
+                        {
+                            title: 'Веб-сервер установка, настройки',
+                            done: true,
+                        },
+                        {
+                            title: 'Установка XAMPP на MacOS',
+                            done: true,
+                        },
+                        {
+                            title: 'Установка XAMPP на Linux',
+                            done: true,
+                        },
+                        {
+                            title: 'Настройка XAMPP на MacOS и Linux',
+                            done: true,
+                        },
+                        {
+                            title: 'Создание сайта в OS панели',
+                            done: true,
+                        },
+                        {
+                            title: 'Синтаксис PHP и редакторы кода',
+                            done: true,
+                        },
+                        {
+                            title: 'Практика — создание и использование переменных',
+                            done: true,
+                        },
+                        {
+                            title: 'Структура файлов на сервере и их соответствие url в строке браузера',
+                            done: true,
+                        },
+                        {
+                            title: 'HTML и CSS для php программиста',
+                            done: true,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: true,
+                            githubLink: 'https://github.com/Coremotor/course-php-developer-2020/tree/master/php-module-1',
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Структура управления данными. Базовые концепции PHP 7',
+                    inProcess: false,
+                    done: true,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Приветственное видео',
+                            done: true,
+                        },
+                        {
+                            title: 'Массивы в PHP',
+                            done: true,
+                        },
+                        {
+                            title: 'Практика — работаем с массивами',
+                            done: true,
+                        },
+                        {
+                            title: 'Встроенные (магические) константы, суперглобальные массивы',
+                            done: true,
+                        },
+                        {
+                            title: 'Выражения, операторы',
+                            done: true,
+                        },
+                        {
+                            title: 'Управляющие конструкции, циклы, приведение типов',
+                            done: true,
+                        },
+                        {
+                            title: 'Практика — работаем с управляющими конструкциями и операциями',
+                            done: true,
+                        },
+                        {
+                            title: 'Функции для ежедневной работы, подключение файлов, пример',
+                            done: true,
+                        },
+                        {
+                            title: 'Написание алгоритмов, разбор типовых алгоритмов',
+                            done: true,
+                        },
+                        {
+                            title: 'Практика — работа с алгоритмами',
+                            done: true,
+                        },
+                        {
+                            title: 'Стили и стандарты оформления кода — psr-1 и psr-12, грамотное именование переменных',
+                            done: true,
+                        },
+                        {
+                            title: 'Терминология и типовые ошибки',
+                            done: true,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: true,
+                            githubLink: 'https://github.com/Coremotor/course-php-developer-2020/tree/master/php-module-2',
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Протокол HTTP/HTTPS',
+                    inProcess: false,
+                    done: true,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Переходим к следующему модулю',
+                            done: true,
+                        },
+                        {
+                            title: 'Протокол HTTP/HTTPS',
+                            done: true,
+                        },
+                        {
+                            title: 'Пример работы с GET и POST данным',
+                            done: true,
+                        },
+                        {
+                            title: 'Пример интеграции верстки',
+                            done: true,
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Пользовательские функции',
+                    inProcess: false,
+                    done: true,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Интро',
+                            done: true,
+                        },
+                        {
+                            title: 'Пользовательские функции. Часть 1',
+                            done: true,
+                        },
+                        {
+                            title: 'Пользовательские функции. Часть 2',
+                            done: true,
+                        },
+                        {
+                            title: 'Пользовательские функции. Часть 3',
+                            done: true,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: true,
+                            githubLink: 'https://github.com/Coremotor/course-php-developer-2020/tree/master/task.manager',
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Файлы и каталоги',
+                    inProcess: false,
+                    done: true,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Файлы. Права доступа. Режимы работы',
+                            done: true,
+                        },
+                        {
+                            title: 'Функции по работе с файлами и каталогами',
+                            done: true,
+                        },
+                        {
+                            title: 'Загрузка файлов на сервер',
+                            done: true,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: true,
+                            githubLink: 'https://github.com/Coremotor/course-php-developer-2020/tree/master/picture.gallery',
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Cookie/Session',
+                    inProcess: false,
+                    done: true,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Cookie',
+                            done: true,
+                        },
+                        {
+                            title: 'Session',
+                            done: true,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: true,
+                            githubLink: 'https://github.com/Coremotor/course-php-developer-2020/tree/master/task.manager',
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'База данных MySQL',
+                    inProcess: true,
+                    done: false,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Последний модуль. Осталось чуть-чуть!',
+                            done: false,
+                        },
+                        {
+                            title: 'Интро',
+                            done: false,
+                        },
+                        {
+                            title: 'Общие сведения о БД',
+                            done: false,
+                        },
+                        {
+                            title: 'Методы работы с БД',
+                            done: false,
+                        },
+                        {
+                            title: 'Основные операции для работы с таблицами',
+                            done: false,
+                        },
+                        {
+                            title: 'Синтаксис базовых запросов',
+                            done: false,
+                        },
+                        {
+                            title: 'Объединение данных из нескольких таблиц',
+                            done: false,
+                        },
+                        {
+                            title: 'Подготовленные запросы',
+                            done: false,
+                        },
+                        {
+                            title: 'Экспорт и импорт БД',
+                            done: false,
+                        },
+                        {
+                            title: 'Архитектура построения структуры таблиц БД',
+                            done: false,
+                        },
+                        {
+                            title: 'Реляционная база данных (нормальные формы). Часть 1',
+                            done: false,
+                        },
+                        {
+                            title: 'Реляционная база данных (нормальные формы). Часть 2',
+                            done: false,
+                        },
+                        {
+                            title: 'Стандарты и Стили оформления в БД, Примеры работы',
+                            done: false,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: false,
+                            githubLink: 'url',
+                        },
+                    ],
+                },
+            ]
+        },
+        phpDeveloperChapterTwo: {
+            id: 'phpDeveloperChapterTwo',
+            title: 'PHP-разработчик с нуля до PRO. Часть 2',
+            done: false,
+            inProcess: true,
+            finalWork: false,
+            finalWorkGithubUrl: 'url',
+            comments: [],
+            show: false,
+            body: [
+                {
+                    id: uuidv4(),
+                    title: 'Объекты (базовые понятия)',
+                    inProcess: false,
+                    done: true,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Вводная лекция Курс 2',
+                            done: true,
+                        },
+                        {
+                            title: 'Основные понятия ООП',
+                            done: true,
+                        },
+                        {
+                            title: 'Составляющие класса',
+                            done: true,
+                        },
+                        {
+                            title: 'Стандарты и стили оформления в ООП, psr-1 и psr-12',
+                            done: true,
+                        },
+                        {
+                            title: 'Пространства имен, указатель $this, constructor, destructor',
+                            done: true,
+                        },
+                        {
+                            title: 'Стандарты и стили оформления в ООП, psr-1 и psr-2',
+                            done: true,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: true,
+                            githubLink: 'https://github.com/Coremotor/course-php-developer-2020/tree/master/oop-module-1',
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Принципы',
+                    inProcess: false,
+                    done: true,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Абстракция и инкапсуляция',
+                            done: true,
+                        },
+                        {
+                            title: 'Наследование и указатели (parent, self)',
+                            done: true,
+                        },
+                        {
+                            title: 'Полиморфизм',
+                            done: true,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: true,
+                            githubLink: 'https://github.com/Coremotor/course-php-developer-2020/tree/master/oop-module-2',
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Объекты (расширенные понятия)',
+                    inProcess: true,
+                    done: false,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Статические свойства и методы',
+                            done: true,
+                        },
+                        {
+                            title: 'Абстрактные классы и методы',
+                            done: true,
+                        },
+                        {
+                            title: 'Финальные классы и методы',
+                            done: true,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: true, //не полностью
+                            githubLink: 'https://github.com/Coremotor/course-php-developer-2020/tree/master/oop-module-3',
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Функции и стандарты по работе с классами',
+                    inProcess: true,
+                    done: false,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Функции по работе с классами и объектами',
+                            done: true,
+                        },
+                        {
+                            title: 'Подгрузка классов. Стандарт PSR-0 и PSR-4',
+                            done: true,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: false,
+                            githubLink: 'url',
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Исключения и другие встроенные классы',
+                    inProcess: false,
+                    done: false,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Исключения',
+                            done: true,
+                        },
+                        {
+                            title: 'Замыкания. Встроенные интерфейсы. Анонимные классы',
+                            done: true,
+                        },
+
+                        {
+                            title: 'Домашняя работа',
+                            done: false,
+                            githubLink: 'url',
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'ООП. Шаблоны',
+                    inProcess: false,
+                    done: false,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Архитектура и принципы проектирования',
+                            done: false,
+                        },
+                        {
+                            title: 'Порождающие шаблоны проектирования',
+                            done: false,
+                        },
+                        {
+                            title: 'Структурные паттерны',
+                            done: false,
+                        },
+                        {
+                            title: 'Поведенческие шаблоны',
+                            done: false,
+                        },
+                        {
+                            title: 'Другие поведенческие шаблоны',
+                            done: false,
+                        },
+                        {
+                            title: 'Базовые и объектно-реляционные паттерны',
+                            done: false,
+                        },
+                        {
+                            title: 'Паттерны представления бизнес-логики и слой представления данных',
+                            done: false,
+                        },
+                        {
+                            title: 'Антипаттерны',
+                            done: false,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: false,
+                            githubLink: 'url',
+                        },
+                    ],
+                },
+            ]
+        },
+        phpDeveloperChapterThree: {
+            id: 'phpDeveloperChapterThree',
+            title: 'PHP-разработчик с нуля до PRO. Часть 3',
+            done: false,
+            inProcess: false,
+            finalWork: false,
+            finalWorkGithubUrl: 'url',
+            comments: [],
+            show: false,
+            body: [
+                {
+                    id: uuidv4(),
+                    title: 'Подготовка среды обучения. Ручной режим',
+                    inProcess: false,
+                    done: false,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Вводная лекция Курс 3',
+                            done: false,
+                        },
+                        {
+                            title: 'VirtualBox установка и настройка',
+                            done: false,
+                        },
+                        {
+                            title: 'Приемы работы в Linux и консоли',
+                            done: false,
+                        },
+                        {
+                            title: 'Nginx. Установка и настройка',
+                            done: false,
+                        },
+                        {
+                            title: 'Установка и настройка PHP и MySQL',
+                            done: false,
+                        },
+                        {
+                            title: 'Менеджер зависимостей — Composer',
+                            done: false,
+                        },
+                        {
+                            title: 'Установка Laravel, конфигурирование серверов',
+                            done: false,
+                        },
+                        {
+                            title: 'Знакомство и настройка PhpStorm',
+                            done: false,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: false,
+                            githubLink: 'url',
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Архитектура и проектирование',
+                    inProcess: false,
+                    done: false,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Архитектура и проектирование',
+                            done: false,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: false,
+                            githubLink: 'url',
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Структура проекта Laravel',
+                    inProcess: false,
+                    done: false,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Структура проекта Laravel',
+                            done: false,
+                        },
+                        {
+                            title: 'Простейшая маршрутизация, миграция и отображение данных',
+                            done: false,
+                        },
+                        {
+                            title: 'Eloquent ORM',
+                            done: false,
+                        },
+                        {
+                            title: 'Контроллеры и шаблонизатор Blade',
+                            done: false,
+                        },
+                        {
+                            title: 'Формы, запросы форм и CSRF',
+                            done: false,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: false,
+                            githubLink: 'url',
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'GIT и командная разработка',
+                    inProcess: false,
+                    done: false,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Системы контроля версий, знакомство с git',
+                            done: false,
+                        },
+                        {
+                            title: 'Основы работы с git',
+                            done: false,
+                        },
+                        {
+                            title: 'Работа с удаленными репозиториями',
+                            done: false,
+                        },
+                        {
+                            title: 'Работа с ветками',
+                            done: false,
+                        },
+                        {
+                            title: 'Другие инструменты git',
+                            done: false,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: false,
+                            githubLink: 'url',
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Laravel — начинающий уровень',
+                    inProcess: false,
+                    done: false,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Модели — ресурсы',
+                            done: false,
+                        },
+                        {
+                            title: 'Работа со Связями в Eloquent. Часть 1',
+                            done: false,
+                        },
+                        {
+                            title: 'Работа со Связями в Eloquent. Часть 2',
+                            done: false,
+                        },
+                        {
+                            title: 'Базовые концепции в Laravel. Часть 1',
+                            done: false,
+                        },
+                        {
+                            title: 'Базовые концепции в Laravel. Часть 2',
+                            done: false,
+                        },
+                        {
+                            title: 'Авторизация и Регистрация',
+                            done: false,
+                        },
+                        {
+                            title: 'Почта, Уведомления, События и Сессия',
+                            done: false,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: false,
+                            githubLink: 'url',
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Laravel — продвинутый уровень',
+                    inProcess: false,
+                    done: false,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Коллекции',
+                            done: false,
+                        },
+                        {
+                            title: 'Работа с frontend',
+                            done: false,
+                        },
+                        {
+                            title: 'Консольные команды, Cron и запуск команд по расписанию в Laravel',
+                            done: false,
+                        },
+                        {
+                            title: 'Шаблонизатор Blade',
+                            done: false,
+                        },
+                        {
+                            title: 'Seeds Factories',
+                            done: false,
+                        },
+                        {
+                            title: 'Основы автотестирования',
+                            done: false,
+                        },
+                        {
+                            title: 'Интеграция с внешним сервисом pushall',
+                            done: false,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: false,
+                            githubLink: 'url',
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Eloquent ORM и База данных',
+                    inProcess: false,
+                    done: false,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Eloquent ORM',
+                            done: false,
+                        },
+                        {
+                            title: 'QueryBuilder',
+                            done: false,
+                        },
+                        {
+                            title: 'Постраничная навигация',
+                            done: false,
+                        },
+                        {
+                            title: 'Миграции',
+                            done: false,
+                        },
+                        {
+                            title: 'Полиморфная связь и связь сквозь объект',
+                            done: false,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: false,
+                            githubLink: 'url',
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Laravel — очереди и WebSocket',
+                    inProcess: false,
+                    done: false,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Очереди в Laravel и Работы — jobs',
+                            done: false,
+                        },
+                        {
+                            title: 'Менеджер процессов Supervisord',
+                            done: false,
+                        },
+                        {
+                            title: 'Установка Redis',
+                            done: false,
+                        },
+                        {
+                            title: 'Инструмент мониторинга laravel/horizon',
+                            done: false,
+                        },
+                        {
+                            title: 'WebSocket и вещание в laravel',
+                            done: false,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: false,
+                            githubLink: 'url',
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Laravel — кеширование и оптимизация',
+                    inProcess: false,
+                    done: false,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Кеширование',
+                            done: false,
+                        },
+                        {
+                            title: 'Профилирование кода',
+                            done: false,
+                        },
+                        {
+                            title: 'Рефакторинг',
+                            done: false,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: false,
+                            githubLink: 'url',
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Бонус-модуль. Введение в Symfony',
+                    inProcess: false,
+                    done: false,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Введение и установка Symfony',
+                            done: false,
+                        },
+                        {
+                            title: 'Структура проекта и настройка PhpStorm',
+                            done: false,
+                        },
+                        {
+                            title: 'Создание первых страниц, Маршрутизация и Контроллеры',
+                            done: false,
+                        },
+                        {
+                            title: 'Flex и Recipes',
+                            done: false,
+                        },
+                        {
+                            title: 'Шаблонизатор Twig',
+                            done: false,
+                        },
+                        {
+                            title: 'Debug Profiler и другие инструменты отладки',
+                            done: false,
+                        },
+                        {
+                            title: 'Подключаемые файлы: Css и Js',
+                            done: false,
+                        },
+                        {
+                            title: 'Генерация URL',
+                            done: false,
+                        },
+                        {
+                            title: 'Создание Json-API',
+                            done: false,
+                        },
+                        {
+                            title: 'Сервисы и Autowiring',
+                            done: false,
+                        },
+                        {
+                            title: 'Webpack Encore',
+                            done: false,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: false,
+                            githubLink: 'url',
+                        },
+                    ],
+                },
+            ]
+        },
+        bitrix1C: {
+            id: 'bitrix1C',
+            title: 'Программист 1С-Битрикс',
+            done: false,
+            inProcess: false,
+            finalWork: false,
+            finalWorkGithubUrl: 'url',
+            comments: [],
+            show: false,
+            body: [
+                {
+                    id: uuidv4(),
+                    title: 'Философия разработки, подготовка рабочего места',
+                    inProcess: false,
+                    done: false,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Философия разработчика',
+                            done: false,
+                        },
+                        {
+                            title: 'Подготовка рабочего места',
+                            done: false,
+                        },
+                        {
+                            title: 'Настройка phpStorm',
+                            done: false,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: false,
+                            githubLink: 'url',
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Источник товаров и контента',
+                    inProcess: false,
+                    done: false,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Что такое инфоблок и как он работает',
+                            done: false,
+                        },
+                        {
+                            title: 'Различие между элементом и товаром каталога',
+                            done: false,
+                        },
+                        {
+                            title: 'Стандартные классы для работы с инфоблоком',
+                            done: false,
+                        },
+                        {
+                            title: 'Обмен с "1С". Soap. Домашнее задание',
+                            done: false,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: false,
+                            githubLink: 'url',
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Интеграция с 1С-Битрикс и другими системами',
+                    inProcess: false,
+                    done: false,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Структура кода в Битрикс',
+                            done: false,
+                        },
+                        {
+                            title: 'Организация init.php, dbconn и settings',
+                            done: false,
+                        },
+                        {
+                            title: 'Работа с файлами XML. Пример работы с SOAP на примере сервиса погоды',
+                            done: false,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: false,
+                            githubLink: 'url',
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Создание страниц и шаблонов',
+                    inProcess: false,
+                    done: false,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Создание страниц и шаблонов, часть 1',
+                            done: false,
+                        },
+                        {
+                            title: 'Создание страниц и шаблонов, часть 2',
+                            done: false,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: false,
+                            githubLink: 'url',
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Стандартные компоненты',
+                    inProcess: false,
+                    done: false,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Стандартные компоненты, часть 1',
+                            done: false,
+                        },
+                        {
+                            title: 'Стандартные компоненты, часть 2',
+                            done: false,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: false,
+                            githubLink: 'url',
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Каталог интернет магазина',
+                    inProcess: false,
+                    done: false,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Каталог интернет-магазина: часть 1',
+                            done: false,
+                        },
+                        {
+                            title: 'Каталог интернет-магазина: часть 2',
+                            done: false,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: false,
+                            githubLink: 'url',
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Карта товара',
+                    inProcess: false,
+                    done: false,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Карта товара: часть 1',
+                            done: false,
+                        },
+                        {
+                            title: 'Карта товара: часть 2',
+                            done: false,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: false,
+                            githubLink: 'url',
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Оформление заказа',
+                    inProcess: false,
+                    done: false,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Оформление заказа, часть 1',
+                            done: false,
+                        },
+                        {
+                            title: 'Оформление заказа, часть 2',
+                            done: false,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: false,
+                            githubLink: 'url',
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Личный кабинет',
+                    inProcess: false,
+                    done: false,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Личный кабинет: урок 1',
+                            done: false,
+                        },
+                        {
+                            title: 'Личный кабинет: урок 2',
+                            done: false,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: false,
+                            githubLink: 'url',
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Дорабатываем сайт, ч.1',
+                    inProcess: false,
+                    done: false,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Дорабатываем сайт, ч.1',
+                            done: false,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: false,
+                            githubLink: 'url',
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Дорабатываем сайт, ч.2',
+                    inProcess: false,
+                    done: false,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Дорабатываем сайт, ч.1',
+                            done: false,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: false,
+                            githubLink: 'url',
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Бонусный материал: ответы на часто задаваемые вопросы',
+                    inProcess: false,
+                    done: false,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Бонусный материал: ответы на часто задаваемые вопросы',
+                            done: false,
+                        },
+                    ],
+                },
+            ]
+        },
+        symfony: {
+            id: 'symfony',
+            title: 'PHP-фреймворк Symfony',
+            done: false,
+            inProcess: false,
+            finalWork: false,
+            finalWorkGithubUrl: 'url',
+            comments: [],
+            show: false,
+            body: [
+                {
+                    id: uuidv4(),
+                    title: 'Введение в Symfony',
+                    inProcess: false,
+                    done: false,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Введение и Установка Symfony',
+                            done: false,
+                        },
+                        {
+                            title: 'Структура проекта и настройка PhpStorm',
+                            done: false,
+                        },
+                        {
+                            title: 'Создание первых страниц, маршрутизация и контроллеры',
+                            done: false,
+                        },
+                        {
+                            title: 'Flex и Recipes',
+                            done: false,
+                        },
+                        {
+                            title: 'Шаблонизатор Twig',
+                            done: false,
+                        },
+                        {
+                            title: 'Debug Profiler и другие инструменты отладки',
+                            done: false,
+                        },
+                        {
+                            title: 'Подключаемые файлы: CSS и Js',
+                            done: false,
+                        },
+                        {
+                            title: 'Генерация URL',
+                            done: false,
+                        },
+                        {
+                            title: 'Создание Json-API',
+                            done: false,
+                        },
+                        {
+                            title: 'Сервисы и Autowiring',
+                            done: false,
+                        },
+                        {
+                            title: 'Webpack Encore',
+                            done: false,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: false,
+                            githubLink: 'url',
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Основы Symfony',
+                    inProcess: false,
+                    done: false,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Основы Autowiring и конфигурирования',
+                            done: false,
+                        },
+                        {
+                            title: 'Конфигурации для разного окружения, файл.env',
+                            done: false,
+                        },
+                        {
+                            title: 'Создание своего сервиса',
+                            done: false,
+                        },
+                        {
+                            title: 'Продвинутое конфигурирование, service.yaml',
+                            done: false,
+                        },
+                        {
+                            title: 'Пример интеграции с сервисом Slack',
+                            done: false,
+                        },
+                        {
+                            title: 'Автовызов методов сервиса, аннотация @required',
+                            done: false,
+                        },
+                        {
+                            title: 'Генерация кода: symfony/maker-bundle',
+                            done: false,
+                        },
+                        {
+                            title: 'Пример создания консольной команды',
+                            done: false,
+                        },
+                        {
+                            title: 'Безопасное хранение секретных конфигураций, Vault',
+                            done: false,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: false,
+                            githubLink: 'url',
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Шаблонизатор Twig',
+                    inProcess: false,
+                    done: false,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Работа с блоками Twig',
+                            done: false,
+                        },
+                        {
+                            title: 'Расширения шаблонизатора Twig',
+                            done: false,
+                        },
+                        {
+                            title: 'LazyLoad в расширениях',
+                            done: false,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: false,
+                            githubLink: 'url',
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Библиотека работы с базой данных Doctrine Orm',
+                    inProcess: false,
+                    done: false,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Знакомство с Doctrine и миграциями',
+                            done: false,
+                        },
+                        {
+                            title: 'Entity Repositories и Query Builder',
+                            done: false,
+                        },
+                        {
+                            title: 'Обновление Entity',
+                            done: false,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: false,
+                            githubLink: 'url',
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Фикстуры и расширения Doctrine',
+                    inProcess: false,
+                    done: false,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Фикстуры и демоданные',
+                            done: false,
+                        },
+                        {
+                            title: 'Расширение возможностей, Sluggable и Timestampable',
+                            done: false,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: false,
+                            githubLink: 'url',
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Связи в Doctrine. Часть 1 — Один ко многим',
+                    inProcess: false,
+                    done: false,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Связь один ко многим (One-to-Many)',
+                            done: false,
+                        },
+                        {
+                            title: 'Получение связанных объектов с дополнительными критериями',
+                            done: false,
+                        },
+                        {
+                            title: 'Сложная логика и Join',
+                            done: false,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: false,
+                            githubLink: 'url',
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Связи в Doctrine. Часть 2',
+                    inProcess: false,
+                    done: false,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Фикстуры 2.0',
+                            done: false,
+                        },
+                        {
+                            title: 'Постраничная навигация',
+                            done: false,
+                        },
+                        {
+                            title: 'Связь Многие-ко-многим',
+                            done: false,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: false,
+                            githubLink: 'url',
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Система аутентификации',
+                    inProcess: false,
+                    done: false,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Создание модели пользователя',
+                            done: false,
+                        },
+                        {
+                            title: 'Форма авторизации',
+                            done: false,
+                        },
+                        {
+                            title: 'Базовый процесс Аутентификации',
+                            done: false,
+                        },
+                        {
+                            title: 'Безопасность и улучшение Аутентификатора',
+                            done: false,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: false,
+                            githubLink: 'url',
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Роли и уровни доступов и безопасность',
+                    inProcess: false,
+                    done: false,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Роли и доступы к страницам',
+                            done: false,
+                        },
+                        {
+                            title: 'Получение авторизованного пользователя',
+                            done: false,
+                        },
+                        {
+                            title: 'Иерархия ролей и Имперсонализация',
+                            done: false,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: false,
+                            githubLink: 'url',
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Доступы по API',
+                    inProcess: false,
+                    done: false,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Создание токена и API маршрута',
+                            done: false,
+                        },
+                        {
+                            title: 'Создание Аутентификатора для API',
+                            done: false,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: false,
+                            githubLink: 'url',
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Регистрация и классы Voter',
+                    inProcess: false,
+                    done: false,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Регистрация и программная авторизация',
+                            done: false,
+                        },
+                        {
+                            title: 'Расширенное управление доступом, классы Voter',
+                            done: false,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: false,
+                            githubLink: 'url',
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Знакомство с компонентом Форм',
+                    inProcess: false,
+                    done: false,
+                    show: false,
+                    lessons: [
+                        {
+                            title: 'Подключение, вывод и обработка формы',
+                            done: false,
+                        },
+                        {
+                            title: 'Типы полей и трансформация данных',
+                            done: false,
+                        },
+                        {
+                            title: 'Поля ChoiceType',
+                            done: false,
+                        },
+                        {
+                            title: 'Домашняя работа',
+                            done: false,
+                            githubLink: 'url',
+                        },
+                    ],
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Валидация вывод и обработка формы (откроется 02.09.2020)',
+                    inProcess: false,
+                    done: false,
+                    show: false,
+                    lessons: [],
+                    inDevelopment: true,
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Расширение полей и кастомная валидация (откроется 16.09.2020)',
+                    inProcess: false,
+                    done: false,
+                    show: false,
+                    lessons: [],
+                    inDevelopment: true,
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Загрузка файлов в Symfony (откроется 30.09.2020)',
+                    inProcess: false,
+                    done: false,
+                    show: false,
+                    lessons: [],
+                    inDevelopment: true,
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Сервис отправки электронных писем (откроется 14.10.2020)',
+                    inProcess: false,
+                    done: false,
+                    show: false,
+                    lessons: [],
+                    inDevelopment: true,
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Система Событий (откроется 28.10.2020)',
+                    inProcess: false,
+                    done: false,
+                    show: false,
+                    lessons: [],
+                    inDevelopment: true,
+                },
+                {
+                    id: uuidv4(),
+                    title: 'Выделение переиспользуемых бандлов для Symfony (откроется 11.11.2020)',
                     inProcess: false,
                     done: false,
                     show: false,

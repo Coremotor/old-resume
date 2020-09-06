@@ -8,10 +8,11 @@ const WhatICan = () => {
             <ul className={styles.whatICanList}>
                 <li>HTML5</li>
                 <li>CSS3, SCSS</li>
-                <li>Валидная, адаптивная кроссбраузерная верстка</li>
+                <li>Валидная, адаптивная, кроссбраузерная верстка</li>
                 <li>БЭМ</li>
                 <li>JavaScript, ES6+</li>
                 <li>Базовые навыки React, Redux</li>
+                <li>Базовые навыки PHP</li>
                 <li>Gulp</li>
                 <li>Webpack</li>
                 <li>Git</li>

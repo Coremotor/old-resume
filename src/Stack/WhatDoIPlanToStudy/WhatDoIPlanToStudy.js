@@ -9,8 +9,7 @@ const WhatDoIPlanToStudy = () => {
                 <li>Vue.js</li>
                 <li>Node.js (backend)</li>
                 <li>Базы данных</li>
-                <li>Laravel</li>
-                <li>Symphony</li>
+                <li>Java</li>
                 <li>...</li>
                 <li>Идти по пути бесконечного изучения новых технологий :)</li>
             </ul>
