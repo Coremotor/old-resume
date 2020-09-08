@@ -6,6 +6,7 @@ const JobSought = () => {
         <section className={styles.jobSought}>
             <h1 className={styles.jobSoughtTitle}>Соискаемая должность</h1>
             <p className={styles.jobSoughtText}>Front-end developer</p>
+            <p className={styles.jobSoughtText}>JavaScript developer</p>
             <p className={styles.jobSoughtText}>Демаков Андрей Иванович</p>
             <p>
                 <a className={styles.jobSoughtLink} href="https://github.com/Coremotor"

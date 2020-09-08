@@ -1735,6 +1735,11 @@ const initialStateCourses =
                             title: 'typeof и система типов',
                             done: true,
                         },
+                        {
+                            title: 'Домашняя работа',
+                            done: true,
+                            githubLink: 'https://github.com/Coremotor/course-javascript-developer-2020/tree/master/module_6',
+                        },
                     ],
                 },
                 {
@@ -1938,77 +1943,77 @@ const initialStateCourses =
                         },
                     ],
                 },
+                // {
+                //     id: uuidv4(),
+                //     title: 'Typescript',
+                //     inProcess: false,
+                //     done: true,
+                //     show: false,
+                //     lessons: [
+                //         {
+                //             title: 'Основы Typescript, Типы',
+                //             done: true,
+                //         },
+                //         {
+                //             title: 'Работа с массивами',
+                //             done: true,
+                //         },
+                //         {
+                //             title: 'Работа с объектами и интерфейсами',
+                //             done: true,
+                //         },
+                //         {
+                //             title: 'Типизация функций и типы ТС',
+                //             done: true,
+                //         },
+                //         {
+                //             title: 'Generics',
+                //             done: true,
+                //         },
+                //         {
+                //             title: 'Классы',
+                //             done: true,
+                //         },
+                //         {
+                //             title: 'Infer, typeof, keyof, Mapped Types',
+                //             done: true,
+                //         },
+                //     ],
+                // },
                 {
                     id: uuidv4(),
-                    title: 'Typescript',
+                    title: 'Компоненты на примере новостной карточки Reddit',
                     inProcess: false,
                     done: true,
                     show: false,
                     lessons: [
                         {
-                            title: 'Основы Typescript, Типы',
-                            done: true,
-                        },
-                        {
-                            title: 'Работа с массивами',
-                            done: true,
-                        },
-                        {
-                            title: 'Работа с объектами и интерфейсами',
-                            done: true,
-                        },
-                        {
-                            title: 'Типизация функций и типы ТС',
-                            done: true,
-                        },
-                        {
-                            title: 'Generics',
-                            done: true,
-                        },
-                        {
-                            title: 'Классы',
-                            done: true,
-                        },
-                        {
-                            title: 'Infer, typeof, keyof, Mapped Types',
-                            done: true,
-                        },
-                    ],
-                },
-                {
-                    id: uuidv4(),
-                    title: 'Компоненты на примере новостной карточки Reddit',
-                    inProcess: false,
-                    done: false,
-                    show: false,
-                    lessons: [
-                        {
                             title: 'Компоненты в React',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Состояния в Class Components',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Состояния в Functional Components',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Создаем Layout приложения. Часть 1',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Создаем Layout приложения. Часть 2',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Создаем компонент новостной карточки',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Жизненный цикл компонента',
-                            done: false,
+                            done: true,
                         },
                     ],
                 },
@@ -2016,28 +2021,28 @@ const initialStateCourses =
                     id: uuidv4(),
                     title: 'Hooks и Функциональное программирование',
                     inProcess: false,
-                    done: false,
+                    done: true,
                     show: false,
                     lessons: [
                         {
                             title: 'Карирование и Функции высшего порядка',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Hooks в реакт',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Map Reduce React',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Создание компонента dropdown c использованием hooks',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Compose, Pipe и применение в React',
-                            done: false,
+                            done: true,
                         },
                     ],
                 },
@@ -2045,28 +2050,28 @@ const initialStateCourses =
                     id: uuidv4(),
                     title: 'Больше о компонентах и введение в тестирование компонентов',
                     inProcess: false,
-                    done: false,
+                    done: true,
                     show: false,
                     lessons: [
                         {
                             title: 'Адаптивные и неадаптивные компоненты. Mobile first и desktop first в адаптиве. Разница в подходах',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Дропдаун меню',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Введение в unit тесты и jest',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Пишем тест на реакт компонент Enzyme vs Snapshots',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Вспомогательные компоненты',
-                            done: false,
+                            done: true,
                         },
                     ],
                 },
@@ -2074,28 +2079,28 @@ const initialStateCourses =
                     id: uuidv4(),
                     title: 'Работа с публичным API на примере Reddit',
                     inProcess: false,
-                    done: false,
+                    done: true,
                     show: false,
                     lessons: [
                         {
                             title: 'Как работать с API',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Регистрируем аккаунт разработчика на Reddit',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'OAuth2',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Авторизация пользователя',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Как структурировать API запросы',
-                            done: false,
+                            done: true,
                         },
                     ],
                 },

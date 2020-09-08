@@ -11,7 +11,7 @@ const WhatICan = () => {
                 <li>Валидная, адаптивная, кроссбраузерная верстка</li>
                 <li>БЭМ</li>
                 <li>JavaScript, ES6+</li>
-                <li>Базовые навыки React, Redux</li>
+                <li>React.js, Redux</li>
                 <li>Базовые навыки PHP</li>
                 <li>Gulp</li>
                 <li>Webpack</li>
