@@ -1,10 +1,10 @@
-.education {
+.selfEducation {
     margin-bottom: 20px;
 
     composes: container from '../container.module.css';
 }
 
-.educationTitleWrapper {
+.selfEducationTitleWrapper {
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -17,42 +17,42 @@
     transition: .2s;
 }
 
-.educationTitleWrapper:hover {
+.selfEducationTitleWrapper:hover {
     background-color: #f7f3e3;
     color: #a8763e;
     transition: .2s;
 }
 
-.educationTitle {
+.selfEducationTitle {
     font-size: 16px;
     width: 100%;
 }
 
-.educationListItem {
+.selfEducationListItem {
     border: 1px solid #a8763e;
     background-color: #f7f3e3;
     padding: 10px;
     margin-bottom: 10px;
 }
 
-.educationListItemText {
+.selfEducationListItemText {
     padding-left: 20px;
 }
 
 @media (max-width: 480px) {
-    .educationTitleWrapper {
+    .selfEducationTitleWrapper {
         padding: 10px;
     }
 
-    .educationTitle {
+    .selfEducationTitle {
         font-size: 14px;
     }
 
-    .educationListItem h3 {
+    .selfEducationListItem h3 {
         font-size: 12px;
     }
 
-    .educationListItemText {
+    .selfEducationListItemText {
         font-size: 12px;
     }
 }

@@ -2173,7 +2173,7 @@ const initialStateCourses =
             id: 'vuejs',
             title: 'Фреймворк Vue.js',
             done: false,
-            inProcess: false,
+            inProcess: true,
             finalWork: false,
             finalWorkGithubUrl: 'url',
             comments: [],
@@ -2183,33 +2183,28 @@ const initialStateCourses =
                     id: uuidv4(),
                     title: 'Основы Vue',
                     inProcess: false,
-                    done: false,
+                    done: true,
                     show: false,
                     lessons: [
                         {
                             title: 'Что такое Vue. Реактивный подход',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Онлайн-сервисы для работы с кодом. Настройки окружения в codepen.io для Vue',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Разбираем код примера. Еще немного о реактивности',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Делаем todo-лист. Директива V-bind',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Делаем todo-лист. Директива V-for, циклы',
-                            done: false,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
+                            done: true,
                         },
                     ],
                 },
@@ -2217,33 +2212,28 @@ const initialStateCourses =
                     id: uuidv4(),
                     title: 'Создание проекта',
                     inProcess: false,
-                    done: false,
+                    done: true,
                     show: false,
                     lessons: [
                         {
                             title: 'Делаем todo-лист. Директивы V-on и V-model',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Делаем todo-лист. Функции. Директивы V-else, V-show',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Концепт курса',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Установка проекта через vue-cli',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Подготовка среды для работы над проектом',
-                            done: false,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
+                            done: true,
                         },
                     ],
                 },
@@ -2251,33 +2241,28 @@ const initialStateCourses =
                     id: uuidv4(),
                     title: 'Каталог товаров',
                     inProcess: false,
-                    done: false,
+                    done: true,
                     show: false,
                     lessons: [
                         {
                             title: 'Vue как фреймворк. Компоненты',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Vue как фреймворк. Модули',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Однофайловый компонент',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Передача параметров в компоненты',
-                            done: false,
+                            done: true,
                         },
                         {
                             title: 'Компонент товара',
-                            done: false,
-                        },
-                        {
-                            title: 'Домашняя работа',
-                            done: false,
-                            githubLink: 'url',
+                            done: true,
                         },
                     ],
                 },

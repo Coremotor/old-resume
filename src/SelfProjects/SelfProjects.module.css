@@ -1,10 +1,10 @@
-.education {
+.selfProjects {
     margin-bottom: 20px;
 
     composes: container from '../container.module.css';
 }
 
-.educationTitleWrapper {
+.selfProjectsTitleWrapper {
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -17,42 +17,42 @@
     transition: .2s;
 }
 
-.educationTitleWrapper:hover {
+.selfProjectsTitleWrapper:hover {
     background-color: #f7f3e3;
     color: #a8763e;
     transition: .2s;
 }
 
-.educationTitle {
+.selfProjectsTitle {
     font-size: 16px;
     width: 100%;
 }
 
-.educationListItem {
+.selfProjectsListItem {
     border: 1px solid #a8763e;
     background-color: #f7f3e3;
     padding: 10px;
     margin-bottom: 10px;
 }
 
-.educationListItemText {
+.selfProjectsListItemText {
     padding-left: 20px;
 }
 
 @media (max-width: 480px) {
-    .educationTitleWrapper {
+    .selfProjectsTitleWrapper {
         padding: 10px;
     }
 
-    .educationTitle {
+    .selfProjectsTitle {
         font-size: 14px;
     }
 
-    .educationListItem h3 {
+    .selfProjectsListItem h3 {
         font-size: 12px;
     }
 
-    .educationListItemText {
+    .selfProjectsListItemText {
         font-size: 12px;
     }
 }

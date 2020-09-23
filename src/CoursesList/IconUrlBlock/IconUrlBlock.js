@@ -50,6 +50,20 @@ export function IconUrlBlock({obj}) {
             }
 
             {
+                obj.hasOwnProperty('selfEducationShow') ?
+
+                    obj.selfEducationShow ? <div className='icon icon-arrow-up'/> : <div className='icon icon-arrow-down'/>
+                    : null
+            }
+
+            {
+                obj.hasOwnProperty('selfProjectsShow') ?
+
+                    obj.selfProjectsShow ? <div className='icon icon-arrow-up'/> : <div className='icon icon-arrow-down'/>
+                    : null
+            }
+
+            {
                 obj.hasOwnProperty('educationShow') ?
 
                     obj.educationShow ? <div className='icon icon-arrow-up'/> : <div className='icon icon-arrow-down'/>

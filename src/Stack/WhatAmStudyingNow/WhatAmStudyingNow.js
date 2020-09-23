@@ -9,7 +9,7 @@ const WhatAmStudyingNow = () => {
                 <li>React.js</li>
                 <li>Vue.js</li>
                 <li>React Native</li>
-                <li>Книга "Чистый код. Создание, анализ и рефакторинг" Мартин Роберт К.</li>
+                <li>Книга "Программистский камень" Алан Картер, Колстон Сенджер</li>
             </ul>
         </section>
     )
